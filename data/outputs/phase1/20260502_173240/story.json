@@ -1,0 +1,86 @@
+{
+  "title": "Hidden Ocean on Mars",
+  "genre": "sci-fi",
+  "themes": [
+    "Exploration",
+    "Discovery",
+    "Nature Preservation"
+  ],
+  "arc": [
+    "intro",
+    "rising_action",
+    "climax",
+    "falling_action",
+    "resolution"
+  ],
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "title": "Setting the Stage",
+      "setting": "A desolate, dusty landscape of Mars with red rocks and Olympus Mons in the distance.",
+      "tone": "Curious and adventurous",
+      "arc_position": "intro",
+      "summary": "A young astronaut, Ava, lands on Mars and discovers an old Martian map indicating a potential water source. She sets up her equipment, filled with excitement for her mission.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "Exploration",
+        "Discovery"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "title": "The Journey Begins",
+      "setting": "A rocky Martian canyon, shadows stretching as the sun begins to set.",
+      "tone": "Tense and hopeful",
+      "arc_position": "rising_action",
+      "summary": "Ava navigates through the canyon, following the map. She hears a strange sound resembling rushing water, heightening her anticipation of finding water on Mars.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "Exploration",
+        "Adventure"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "title": "The Discovery",
+      "setting": "A hidden cavern illuminated by bioluminescent algae, revealing a vast underground ocean.",
+      "tone": "Awe and wonder",
+      "arc_position": "climax",
+      "summary": "Ava discovers the underground ocean, glowing softly and filled with strange aquatic life. She collects samples and captures holographic images, overwhelmed by the beauty of her find.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "Discovery",
+        "Nature"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "title": "Confronting the Decision",
+      "setting": "Back at the canyon entrance, under a starry Martian sky.",
+      "tone": "Reflective and conflicted",
+      "arc_position": "falling_action",
+      "summary": "Ava reflects on her discovery and debates whether to reveal the ocean's location. She feels the weight of her responsibility as a scientist and explorer.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "Responsibility",
+        "Preservation"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "title": "A Choice Made",
+      "setting": "The entrance of her spacecraft, with the Martian landscape behind her.",
+      "tone": "Hopeful and determined",
+      "arc_position": "resolution",
+      "summary": "Ava decides to keep the ocean a secret to preserve its beauty. She sends a report back to Earth, omitting the ocean's location, and lifts off from Mars with a sense of fulfillment.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "Preservation",
+        "Hope"
+      ]
+    }
+  ],
+  "total_estimated_duration_seconds": 125,
+  "premise": "A young astronaut discovers a hidden ocean on Mars.",
+  "setting_description": "A visually stunning Martian landscape featuring red rocks, canyons, and a hidden underground ocean."
+}

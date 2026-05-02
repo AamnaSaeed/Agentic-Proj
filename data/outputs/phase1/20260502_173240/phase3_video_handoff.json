@@ -1,0 +1,73 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "visual_prompt": "3D Pixar-style CGI, A desolate, dusty landscape of Mars with red rocks and Olympus Mons in the distance., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "visual_prompt": "3D Pixar-style CGI, A rocky Martian canyon, shadows stretching as the sun begins to set., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "visual_prompt": "3D Pixar-style CGI, A hidden cavern illuminated by bioluminescent algae, revealing a vast underground ocean., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), Zeph (tall ethereal being with translucent skin, glowing blue eyes, wearing a shimmering robe resembling bioluminescent algae), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "visual_prompt": "3D Pixar-style CGI, Back at the canyon entrance, under a starry Martian sky., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), Dr. Harris (middle-aged man with salt-and-pepper hair, wearing a formal mission control uniform, stern yet caring expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_003"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "visual_prompt": "3D Pixar-style CGI, The entrance of her spacecraft, with the Martian landscape behind her., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), Dr. Harris (middle-aged man with salt-and-pepper hair, wearing a formal mission control uniform, stern yet caring expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_003"
+      ]
+    }
+  ],
+  "character_appearance_prompts": {
+    "char_001": "young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression",
+    "char_002": "tall ethereal being with translucent skin, glowing blue eyes, wearing a shimmering robe resembling bioluminescent algae",
+    "char_003": "middle-aged man with salt-and-pepper hair, wearing a formal mission control uniform, stern yet caring expression"
+  },
+  "global_art_style": "3D Pixar-style CGI"
+}

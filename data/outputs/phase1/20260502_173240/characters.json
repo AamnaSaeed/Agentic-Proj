@@ -1,0 +1,125 @@
+{
+  "characters": [
+    {
+      "character_id": "char_001",
+      "name": "Ava",
+      "role": "protagonist",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "appearance": {
+        "physical_description": "A young woman with short black hair, bright green eyes.",
+        "clothing": "A sleek, silver astronaut suit with blue accents, equipped with scientific instruments.",
+        "distinctive_features": "Determined expression.",
+        "color_palette": [
+          "#000000",
+          "#00FF00",
+          "#C0C0C0",
+          "#0000FF"
+        ],
+        "art_style_prompt": "young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression"
+      },
+      "personality_traits": [
+        "driven",
+        "curious",
+        "compassionate"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_002",
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ],
+      "background": "Ava is a passionate astronaut on a mission to explore Mars and discover its secrets."
+    },
+    {
+      "character_id": "char_002",
+      "name": "Zeph",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "elderly",
+        "tone": "calm and soothing",
+        "speed": 0.8,
+        "emotion_baseline": "mysterious",
+        "accent": "soft, melodic",
+        "tts_style_tags": [
+          "mystical",
+          "serene",
+          "ethereal"
+        ]
+      },
+      "appearance": {
+        "physical_description": "A tall, ethereal being with translucent skin that reflects Martian colors.",
+        "clothing": "A robe made of shimmering materials resembling bioluminescent algae.",
+        "distinctive_features": "Glowing blue eyes and long, flowing hair.",
+        "color_palette": [
+          "#00FFFF",
+          "#0000FF",
+          "#FF00FF"
+        ],
+        "art_style_prompt": "tall ethereal being with translucent skin, glowing blue eyes, wearing a shimmering robe resembling bioluminescent algae"
+      },
+      "personality_traits": [
+        "wise",
+        "nurturing",
+        "mysterious"
+      ],
+      "scenes_appearing_in": [
+        "scene_003"
+      ],
+      "background": "Zeph is the spirit of Mars, guiding explorers and advocating for the preservation of its ecosystem."
+    },
+    {
+      "character_id": "char_003",
+      "name": "Dr. Harris",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "adult",
+        "tone": "authoritative",
+        "speed": 1.0,
+        "emotion_baseline": "serious",
+        "accent": "british",
+        "tts_style_tags": [
+          "commanding",
+          "professional",
+          "concerned"
+        ]
+      },
+      "appearance": {
+        "physical_description": "A middle-aged man with salt-and-pepper hair and sharp blue eyes.",
+        "clothing": "A formal mission control uniform with various patches.",
+        "distinctive_features": "Stern yet caring expression.",
+        "color_palette": [
+          "#000000",
+          "#FFFFFF",
+          "#FF0000"
+        ],
+        "art_style_prompt": "middle-aged man with salt-and-pepper hair, wearing a formal mission control uniform, stern yet caring expression"
+      },
+      "personality_traits": [
+        "responsible",
+        "pragmatic",
+        "caring"
+      ],
+      "scenes_appearing_in": [
+        "scene_004",
+        "scene_005"
+      ],
+      "background": "Dr. Harris is the mission commander, focused on the success of the mission and the safety of his crew."
+    }
+  ],
+  "global_art_style": "3D Pixar-style CGI"
+}

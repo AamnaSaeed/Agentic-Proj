@@ -1,0 +1,213 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "I've finally made it to Mars! This is incredible!",
+          "emotion": "excited",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "Look at this map... a potential water source!",
+          "emotion": "neutral",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_003",
+          "character_id": "char_001",
+          "text": "Time to set up my equipment!",
+          "emotion": "neutral",
+          "timing_offset_seconds": 10.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_004",
+          "character_id": "char_001",
+          "text": "I can feel the excitement building!",
+          "emotion": "excited",
+          "timing_offset_seconds": 15.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_005",
+          "character_id": "char_001",
+          "text": "This is just the beginning!",
+          "emotion": "excited",
+          "timing_offset_seconds": 20.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, A desolate, dusty landscape of Mars with red rocks and Olympus Mons in the distance., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "background_music_mood": "curious and adventurous",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    },
+    {
+      "scene_id": "scene_002",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "I need to be careful... what if I find something amazing?",
+          "emotion": "curious",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "This canyon is more beautiful than I imagined!",
+          "emotion": "neutral",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_003",
+          "character_id": "char_001",
+          "text": "What was that sound? It sounds like water...",
+          "emotion": "curious",
+          "timing_offset_seconds": 10.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_004",
+          "character_id": "char_001",
+          "text": "I have to keep going!",
+          "emotion": "determined",
+          "timing_offset_seconds": 15.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, A rocky Martian canyon, shadows stretching as the sun begins to set., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "background_music_mood": "tense and hopeful",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    },
+    {
+      "scene_id": "scene_003",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "Wow! This is unbelievable!",
+          "emotion": "awe",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "Look at all this life! I have to document everything!",
+          "emotion": "awe",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_003",
+          "character_id": "char_001",
+          "text": "This place is beautiful... I can't believe it exists!",
+          "emotion": "awe",
+          "timing_offset_seconds": 10.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, A hidden cavern illuminated by bioluminescent algae, revealing a vast underground ocean., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), Zeph (tall ethereal being with translucent skin, glowing blue eyes, wearing a shimmering robe resembling bioluminescent algae), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "background_music_mood": "awe and wonder",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    },
+    {
+      "scene_id": "scene_004",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "A hidden ocean on Mars... I need to be responsible with this knowledge.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "What if revealing this could harm it?",
+          "emotion": "curious",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_003",
+          "character_id": "char_001",
+          "text": "I must think about the future of this ecosystem.",
+          "emotion": "determined",
+          "timing_offset_seconds": 10.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, Back at the canyon entrance, under a starry Martian sky., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), Dr. Harris (middle-aged man with salt-and-pepper hair, wearing a formal mission control uniform, stern yet caring expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "background_music_mood": "reflective and conflicted",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    },
+    {
+      "scene_id": "scene_005",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "I've made my decision...",
+          "emotion": "neutral",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "I'll keep it a secret. It deserves to be protected.",
+          "emotion": "determined",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_003",
+          "character_id": "char_001",
+          "text": "Time to send my report back home...",
+          "emotion": "hopeful",
+          "timing_offset_seconds": 10.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, The entrance of her spacecraft, with the Martian landscape behind her., Ava (young woman with short black hair, wearing a sleek silver astronaut suit with blue accents, determined expression), Dr. Harris (middle-aged man with salt-and-pepper hair, wearing a formal mission control uniform, stern yet caring expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot.",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "background_music_mood": "hopeful and determined",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    }
+  ]
+}

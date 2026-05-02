@@ -1,0 +1,467 @@
+{
+  "voice_configs": {
+    "char_001": {
+      "gender": "female",
+      "age_range": "young_adult",
+      "tone": "inspirational",
+      "speed": 1.0,
+      "emotion_baseline": "curious",
+      "accent": "american",
+      "tts_style_tags": [
+        "narrative",
+        "adventurous",
+        "engaging"
+      ]
+    },
+    "char_002": {
+      "gender": "neutral",
+      "age_range": "elderly",
+      "tone": "calm and soothing",
+      "speed": 0.8,
+      "emotion_baseline": "mysterious",
+      "accent": "soft, melodic",
+      "tts_style_tags": [
+        "mystical",
+        "serene",
+        "ethereal"
+      ]
+    },
+    "char_003": {
+      "gender": "male",
+      "age_range": "adult",
+      "tone": "authoritative",
+      "speed": 1.0,
+      "emotion_baseline": "serious",
+      "accent": "british",
+      "tts_style_tags": [
+        "commanding",
+        "professional",
+        "concerned"
+      ]
+    }
+  },
+  "audio_segments": [
+    {
+      "segment_id": "scene_001_line_001",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "I've finally made it to Mars! This is incredible!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "excited"
+    },
+    {
+      "segment_id": "scene_001_line_002",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Look at this map... a potential water source!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 5.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_001_line_003",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "Time to set up my equipment!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 10.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_001_line_004",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_004",
+      "text": "I can feel the excitement building!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 15.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "excited"
+    },
+    {
+      "segment_id": "scene_001_line_005",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_005",
+      "text": "This is just the beginning!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 20.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "excited"
+    },
+    {
+      "segment_id": "scene_002_line_001",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "I need to be careful... what if I find something amazing?",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "curious"
+    },
+    {
+      "segment_id": "scene_002_line_002",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "This canyon is more beautiful than I imagined!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 5.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_002_line_003",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "What was that sound? It sounds like water...",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 10.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "curious"
+    },
+    {
+      "segment_id": "scene_002_line_004",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_004",
+      "text": "I have to keep going!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 15.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "determined"
+    },
+    {
+      "segment_id": "scene_003_line_001",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Wow! This is unbelievable!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "awe"
+    },
+    {
+      "segment_id": "scene_003_line_002",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Look at all this life! I have to document everything!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 5.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "awe"
+    },
+    {
+      "segment_id": "scene_003_line_003",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "This place is beautiful... I can't believe it exists!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 10.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "awe"
+    },
+    {
+      "segment_id": "scene_004_line_001",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "A hidden ocean on Mars... I need to be responsible with this knowledge.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_004_line_002",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "What if revealing this could harm it?",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 5.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "curious"
+    },
+    {
+      "segment_id": "scene_004_line_003",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "I must think about the future of this ecosystem.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 10.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "determined"
+    },
+    {
+      "segment_id": "scene_005_line_001",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "I've made my decision...",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_005_line_002",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "I'll keep it a secret. It deserves to be protected.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 5.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "determined"
+    },
+    {
+      "segment_id": "scene_005_line_003",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "Time to send my report back home...",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "inspirational",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "american",
+        "tts_style_tags": [
+          "narrative",
+          "adventurous",
+          "engaging"
+        ]
+      },
+      "timing_offset_seconds": 10.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "hopeful"
+    }
+  ],
+  "music_moods": {
+    "scene_001": "curious and adventurous",
+    "scene_002": "tense and hopeful",
+    "scene_003": "awe and wonder",
+    "scene_004": "reflective and conflicted",
+    "scene_005": "hopeful and determined"
+  },
+  "total_segments": 18
+}
