@@ -12,6 +12,8 @@ typing_extensions>=4.9.0
 python-dotenv>=1.0.0
 
 # ── Phase 2 — Audio (ElevenLabs or Coqui TTS) ────────────────────────────
+edge-tts>=7.2.8
+imageio-ffmpeg>=0.6.0
 # elevenlabs>=1.0.0
 # TTS>=0.22.0          # Coqui TTS (local)
 

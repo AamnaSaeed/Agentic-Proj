@@ -1,0 +1,311 @@
+{
+  "phase": "phase2_audio",
+  "run_status": "success",
+  "output_dir": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433",
+  "segments": [
+    {
+      "segment_id": "scene_001_line_001",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "I've finally made it to Mars! This is incredible!",
+      "emotion": "excited",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_001_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 4391,
+      "duration_ms": 4391,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_001_line_002",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Look at this map... a potential water source!",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_001_line_002.wav",
+      "start_ms": 5000,
+      "end_ms": 8480,
+      "duration_ms": 3480,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_001_line_003",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "Time to set up my equipment!",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_001_line_003.wav",
+      "start_ms": 10000,
+      "end_ms": 12568,
+      "duration_ms": 2568,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_001_line_004",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_004",
+      "text": "I can feel the excitement building!",
+      "emotion": "excited",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_001_line_004.wav",
+      "start_ms": 15000,
+      "end_ms": 17520,
+      "duration_ms": 2520,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_001_line_005",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_005",
+      "text": "This is just the beginning!",
+      "emotion": "excited",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_001_line_005.wav",
+      "start_ms": 20000,
+      "end_ms": 22136,
+      "duration_ms": 2136,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_002_line_001",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "I need to be careful... what if I find something amazing?",
+      "emotion": "curious",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_002_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 3960,
+      "duration_ms": 3960,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_002_line_002",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "This canyon is more beautiful than I imagined!",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_002_line_002.wav",
+      "start_ms": 5000,
+      "end_ms": 8431,
+      "duration_ms": 3431,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_002_line_003",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "What was that sound? It sounds like water...",
+      "emotion": "curious",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_002_line_003.wav",
+      "start_ms": 10000,
+      "end_ms": 14031,
+      "duration_ms": 4031,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_002_line_004",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_004",
+      "text": "I have to keep going!",
+      "emotion": "determined",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_002_line_004.wav",
+      "start_ms": 15000,
+      "end_ms": 16968,
+      "duration_ms": 1968,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_003_line_001",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Wow! This is unbelievable!",
+      "emotion": "awe",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_003_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 3360,
+      "duration_ms": 3360,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_003_line_002",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Look at all this life! I have to document everything!",
+      "emotion": "awe",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_003_line_002.wav",
+      "start_ms": 5000,
+      "end_ms": 9440,
+      "duration_ms": 4440,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_003_line_003",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "This place is beautiful... I can't believe it exists!",
+      "emotion": "awe",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_003_line_003.wav",
+      "start_ms": 10000,
+      "end_ms": 14488,
+      "duration_ms": 4488,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_004_line_001",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "A hidden ocean on Mars... I need to be responsible with this knowledge.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_004_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 5376,
+      "duration_ms": 5376,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_004_line_002",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "What if revealing this could harm it?",
+      "emotion": "curious",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_004_line_002.wav",
+      "start_ms": 5000,
+      "end_ms": 7640,
+      "duration_ms": 2640,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_004_line_003",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "I must think about the future of this ecosystem.",
+      "emotion": "determined",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_004_line_003.wav",
+      "start_ms": 10000,
+      "end_ms": 13191,
+      "duration_ms": 3191,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_005_line_001",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "I've made my decision...",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_005_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 2184,
+      "duration_ms": 2184,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_005_line_002",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "I'll keep it a secret. It deserves to be protected.",
+      "emotion": "determined",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_005_line_002.wav",
+      "start_ms": 5000,
+      "end_ms": 9271,
+      "duration_ms": 4271,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_005_line_003",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "Time to send my report back home...",
+      "emotion": "hopeful",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\segments\\scene_005_line_003.wav",
+      "start_ms": 10000,
+      "end_ms": 12591,
+      "duration_ms": 2591,
+      "provider": "edge_tts"
+    }
+  ],
+  "scene_tracks": [
+    {
+      "scene_id": "scene_001",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\scenes\\scene_001_mix.wav",
+      "duration_seconds": 22.63596371882086
+    },
+    {
+      "scene_id": "scene_002",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\scenes\\scene_002_mix.wav",
+      "duration_seconds": 17.467981859410433
+    },
+    {
+      "scene_id": "scene_003",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\scenes\\scene_003_mix.wav",
+      "duration_seconds": 14.98798185941043
+    },
+    {
+      "scene_id": "scene_004",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\scenes\\scene_004_mix.wav",
+      "duration_seconds": 13.690975056689343
+    },
+    {
+      "scene_id": "scene_005",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\scenes\\scene_005_mix.wav",
+      "duration_seconds": 13.090975056689343
+    }
+  ],
+  "bgm_tracks": [
+    {
+      "scene_id": "scene_001",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\bgm\\scene_001_bgm.wav",
+      "duration_seconds": 22.636,
+      "mood": "curious and adventurous",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_002",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\bgm\\scene_002_bgm.wav",
+      "duration_seconds": 17.468,
+      "mood": "tense and hopeful",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_003",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\bgm\\scene_003_bgm.wav",
+      "duration_seconds": 14.988,
+      "mood": "awe and wonder",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_004",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\bgm\\scene_004_bgm.wav",
+      "duration_seconds": 13.691,
+      "mood": "reflective and conflicted",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_005",
+      "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\bgm\\scene_005_bgm.wav",
+      "duration_seconds": 13.091,
+      "mood": "hopeful and determined",
+      "provider": "offline_procedural_bgm"
+    }
+  ],
+  "full_audio": {
+    "audio_file": "D:\\agentic_proj\\Agentic-Proj\\data\\outputs\\phase2\\20260503_110433\\full_audio.wav",
+    "duration_seconds": 81.87387755102041
+  },
+  "total_segments": 18,
+  "total_duration_ms": 81873
+}
