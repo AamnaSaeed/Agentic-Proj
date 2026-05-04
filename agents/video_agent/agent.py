@@ -306,7 +306,7 @@ class VideoAgent:
             data = _load_json(str(p))
             if isinstance(data, list):
                 return data
-            return data.get("entries", data.get("manifest", []))
+            return data.get("entries", data.get("segments", data.get("manifest", [])))
         print("[VideoAgent] WARNING: no timing_manifest.json found.")
         return []
 

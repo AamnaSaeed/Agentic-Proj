@@ -1,331 +1,526 @@
-AgenticAI_Project_<GroupName>/
-│
-├── README.md
-├── requirements.txt
-├── .env
-├── .gitignore
-│
-├── docs/
-├── data/
-│   ├── outputs/
-│   ├── temp/
-│   └── state_versions/
-│
-├── shared/
-│   ├── schemas/
-│   ├── utils/
-│   └── constants/
-│
-├── mcp/                              # 🧩 MCP Layer (Tool Abstraction)
-│   ├── base_tool.py                  # Base Tool Interface
-│   ├── tool_registry.py              # Register & discover tools
-│   ├── tool_executor.py              # Executes tools dynamically
-│   │
-│   ├── tools/                        # 🔧 Actual Tools
-│   │   ├── llm_tools/
-│   │   │   ├── text_generator.py
-│   │   │   └── json_structurer.py
-│   │   │
-│   │   ├── audio_tools/
-│   │   │   ├── tts_tool.py
-│   │   │   ├── bgm_tool.py
-│   │   │   └── audio_merger.py
-│   │   │
-│   │   ├── vision_tools/
-│   │   │   ├── image_gen_tool.py
-│   │   │   ├── image_edit_tool.py
-│   │   │   └── style_transfer.py
-│   │   │
-│   │   ├── video_tools/
-│   │   │   ├── ffmpeg_tool.py
-│   │   │   ├── compositor_tool.py
-│   │   │   └── subtitle_tool.py
-│   │   │
-│   │   └── system_tools/
-│   │       ├── file_tool.py
-│   │       ├── state_tool.py
-│   │       └── logger_tool.py
-│
-├── agents/                           # 🤖 Agents use MCP tools
-│   ├── orchestrator/
-│   │   ├── graph.py
-│   │   ├── workflow.py
-│   │   └── state.py
-│   │
-│   ├── story_agent/                  # Phase 1
-│   │   ├── agent.py                  # Uses LLM tools
-│   │   ├── planner.py
-│   │   └── tests/
-│   │
-│   ├── audio_agent/                  # Phase 2
-│   │   ├── agent.py                  # Uses TTS + BGM tools
-│   │   └── tests/
-│   │
-│   ├── video_agent/                  # Phase 3
-│   │   ├── agent.py                  # Uses vision + video tools
-│   │   └── tests/
-│   │
-│   └── edit_agent/                   # Phase 5 ⭐
-│       ├── agent.py
-│       ├── intent_classifier.py
-│       ├── planner.py
-│       ├── executor.py               # Calls MCP tools
-│       └── tests/
-│
-├── backend/
-│   ├── app.py
-│   ├── routes/
-│   ├── services/
-│   └── websocket/
-│
-├── frontend/
-│   ├── src/
-│   └── package.json
-│
-├── state_manager/
-│   ├── state_manager.py
-│   ├── snapshot.py
-│   ├── history.py
-│   └── storage.py
-│
-├── tests/
-│   ├── unit/
-│   └── integration/
-│
-└── scripts/
+# Agentic AI Video Pipeline
 
+This project generates short animated videos from a prompt using a multi-phase agent pipeline and a Phase 4 web app.
 
-## Phase 2: Audio Generation
+## What The Project Does
 
-Phase 2 consumes the Phase 1 `phase2_audio_handoff.json` file and produces:
+The pipeline is organized into four phases:
 
-- one WAV file per dialogue line in `segments/`
-- optional procedural background music per scene in `bgm/`
-- one mixed scene audio file per scene in `scenes/`
-- a combined `full_audio.wav`
-- `timing_manifest.json` for Phase 3 video synchronization
-- `summary.json`
+| Phase | Name | Output |
+|------|------|--------|
+| 1 | Story | `story.json`, `characters.json`, `script.json`, Phase 2/3 handoff JSON |
+| 2 | Audio | dialogue audio, background music, scene mixes, `timing_manifest.json` |
+| 3 | Video | generated images, animated clips, subtitles, final MP4 |
+| 4 | Web App | FastAPI backend, React/Vite frontend, job status, reruns, media preview |
 
-Run the bundled sample handoff:
+Phase 4 runs Phase 1 -> Phase 2 -> Phase 3 as a job and stores every output under `data/jobs/<job_id>/`.
 
-```bash
-python -m agents.audio_agent.agent
-```
-
-Run with a custom handoff path:
-
-```bash
-set PHASE2_HANDOFF_PATH=data/outputs/phase1/<run_id>/phase2_audio_handoff.json
-python -m agents.audio_agent.agent
-```
-
-PowerShell equivalent:
-
-```powershell
-$env:PHASE2_HANDOFF_PATH="data/outputs/phase1/<run_id>/phase2_audio_handoff.json"
-python -m agents.audio_agent.agent
-```
-
-The current implementation uses Microsoft Edge neural TTS through `edge-tts`, so it produces more natural spoken dialogue without paid API credentials. Edge TTS writes MP3 internally, then `imageio-ffmpeg` converts it to WAV so the existing mixer can build scene tracks and `full_audio.wav`. Windows SAPI and a tiny tone renderer remain as fallbacks if Edge TTS is unavailable. A cloud TTS provider can later replace `mcp/tools/audio_tools/tts_tool.py` while preserving the same manifest contract.
-
-Background music is generated per scene from the Phase 1 `music_moods` map. The current BGM provider is `offline_procedural_bgm`, which creates soft mood pads locally and mixes them under the dialogue in each scene track.
-
-Phase 2 sample output has been generated at:
+## Project Structure
 
 ```text
-data/outputs/phase2/20260503_110433/
+.
+├── agents/
+│   ├── story_agent/        # Phase 1
+│   ├── audio_agent/        # Phase 2
+│   ├── video_agent/        # Phase 3
+│   └── edit_agent/         # Future Phase 5 placeholder
+├── backend/
+│   ├── app.py              # FastAPI app and API routes
+│   ├── schemas.py          # API request/response schemas
+│   └── services/
+│       ├── job_store.py
+│       └── pipeline_runner.py
+├── frontend/
+│   ├── src/
+│   │   ├── main.jsx
+│   │   └── styles.css
+│   ├── package.json
+│   └── vite.config.js
+├── mcp/                    # Tool layer used by agents
+├── shared/schemas/         # Pydantic schemas and handoff contracts
+├── state_manager/          # JSON state persistence helpers
+├── tests/
+├── data/
+│   ├── jobs/               # Generated Phase 4 jobs, ignored by Git
+│   ├── outputs/            # Older/manual generated outputs, ignored by Git
+│   ├── temp/               # Ignored by Git
+│   └── state_versions/     # Ignored by Git
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── .env.example
+└── .gitignore
 ```
 
-Test coverage for Phase 2 lives in `tests/unit/test_phase2.py`.
+## Prerequisites
 
----
+Install these before running the full app:
 
-## Phase 3: Video Generation & Composition
+- Python 3.11+ recommended
+- Node.js 20+ or 22+
+- FFmpeg
+- A Google Gemini API key for Phase 1
 
-Phase 3 consumes the Phase 1 `phase3_video_handoff.json` and Phase 2 `timing_manifest.json` to produce a complete animated short video.
-
-### What It Produces
-
-```
-data/outputs/phase3/<run_id>/
-├── images/
-│   └── <scene_id>/
-│       ├── scene_001_01_wide.png         # wide establishing shot
-│       ├── scene_001_02_mid.png          # medium / character shot
-│       └── scene_001_03_closeup.png      # close-up / detail shot
-├── clips/
-│   ├── scene_001_01_raw.mp4              # Ken Burns animated clip (per image)
-│   ├── scene_001_02_raw.mp4
-│   ├── scene_001_03_raw.mp4
-│   ├── scene_001_merged.mp4             # crossfaded image clips
-│   └── scene_001_audio.mp4             # merged clip + scene audio
-├── scenes/
-│   └── scene_001_final.mp4             # final scene clip (with fades)
-├── subtitles.srt                        # SRT subtitle file
-├── final_raw.mp4                        # pre-optimization composite
-├── final_output.mp4                     # 🎬 finished video (CRF 18 optimized)
-├── final_output_subtitled.mp4           # optional: subtitles burned in
-└── summary.json
-```
-
-### Pipeline (per scene)
-
-| Step | What Happens |
-|------|-------------|
-| 1 | **Multi-image generation** — Pollinations AI (FLUX model) generates 3 images per scene, each with a different framing: wide establishing shot → medium character shot → close-up detail shot |
-| 2 | **Audio-synced duration** — scene duration is read from the actual Phase 2 WAV file length so visuals always match the narration exactly |
-| 3 | **Varied Ken Burns** — each image gets a different motion effect: `zoom_in` → `pan_left` → `zoom_out` → `pan_right`, cycling per shot type |
-| 4 | **Crossfade between images** — FFmpeg `xfade` transition (0.35s) joins the 3 image clips into one smooth scene clip |
-| 5 | **Audio mux** — Phase 2 scene WAV is muxed into the clip with perfect duration sync |
-| 6 | **Scene fades** — 0.3s fade-in and fade-out applied to each scene clip |
-
-Final assembly:
-
-| Step | What Happens |
-|------|-------------|
-| 7 | **MoviePy composite** — all scene clips concatenated with 0.5s crossfade transitions, title card, and end card |
-| 8 | **FFmpeg quality pass** — re-encoded at CRF 18 (`slow` preset) for high-quality delivery |
-| 9 | **Subtitle burn-in** — SRT generated from timing manifest and optionally burned into the video |
-
-### MCP Tools
-
-| Tool | File | Responsibility |
-|------|------|---------------|
-| `ImageGenTool` | `mcp/tools/vision_tools/image_gen_tool.py` | Generates 3 PNG images per scene via Pollinations AI (FLUX); PIL gradient fallback |
-| `FFmpegTool` | `mcp/tools/video_tools/ffmpeg_tool.py` | Ken Burns animation, audio mux, fades, concatenation, subtitle burn-in |
-| `CompositorTool` | `mcp/tools/video_tools/compositor_tool.py` | MoviePy final composition with crossfade transitions, title/end cards |
-| `SubtitleTool` | `mcp/tools/video_tools/subtitle_tool.py` | Converts timing manifest to SRT format |
-
-### Dependencies
-
-**System (install once):**
+Check your versions:
 
 ```bash
-# Windows — download installer from https://ffmpeg.org/download.html
-# Then add to PATH. Verify with:
+python --version
+node --version
+npm --version
 ffmpeg -version
 ```
 
-**Python packages:**
+On Ubuntu/Debian, install FFmpeg with:
 
 ```bash
-pip install moviepy==1.0.3 Pillow numpy requests
+sudo apt update
+sudo apt install ffmpeg
 ```
 
-> **No API keys required.** Pollinations AI is a free, open image generation service — no account or token needed. Ollama is optional and runs fully locally.
+## Environment Setup
 
-### Environment Variables
-
-All variables are optional — the agent auto-detects the latest Phase 1 and Phase 2 output directories if not set.
-
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `PHASE1_RUN_DIR` | latest in `data/outputs/phase1/` | Path to Phase 1 run directory |
-| `PHASE2_RUN_DIR` | latest in `data/outputs/phase2/` | Path to Phase 2 run directory |
-| `PHASE3_OUTPUT_DIR` | `data/outputs/phase3/<timestamp>/` | Where to write Phase 3 outputs |
-| `BURN_SUBTITLES` | `true` | Set `false` to skip subtitle burn-in |
-| `USE_OLLAMA` | `false` | Set `true` to enhance prompts via local Ollama |
-| `IMAGES_PER_SCENE` | `3` | Number of images to generate per scene (2–4 recommended) |
-
-### Running
-
-**Auto-detect latest Phase 1 & 2 outputs (recommended):**
+Create a local `.env` file:
 
 ```bash
-python -m agents.video_agent.agent
+cp .env.example .env
 ```
 
-**Point to specific run directories:**
+Edit `.env` and set:
+
+```env
+GOOGLE_API_KEY=your_google_api_key_here
+PHASE1_MODEL=gemini-2.0-flash
+PHASE1_OUTPUT_DIR=data/outputs
+PHASE2_OUTPUT_DIR=data/outputs/phase2
+BURN_SUBTITLES=true
+USE_OLLAMA=false
+IMAGES_PER_SCENE=3
+```
+
+`.env` is ignored by Git. Do not commit real API keys.
+
+## Install Backend
+
+From the project root:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+On Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+## Install Frontend
+
+From the project root:
+
+```bash
+cd frontend
+npm install
+cd ..
+```
+
+## Run The Phase 4 App Locally
+
+Terminal 1, start the backend:
+
+```bash
+source .venv/bin/activate
+uvicorn backend.app:app --reload --host 0.0.0.0 --port 8000
+```
+
+Terminal 2, start the frontend:
+
+```bash
+cd frontend
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+The frontend proxies API requests to:
+
+```text
+http://localhost:8000
+```
+
+## Run A Full Video Job
+
+In the web app:
+
+1. Enter a prompt.
+2. Click `Generate Video`.
+3. Watch the progress tracker for Phase 1, Phase 2, and Phase 3.
+4. When the job completes, inspect the JSON preview.
+5. Play generated audio if available.
+6. Play or download the final video.
+
+Generated files are stored like this:
+
+```text
+data/jobs/<job_id>/
+├── state.json
+├── phase1/
+│   ├── story.json
+│   ├── characters.json
+│   ├── script.json
+│   ├── phase2_audio_handoff.json
+│   ├── phase3_video_handoff.json
+│   └── summary.json
+├── phase2/
+│   ├── segments/
+│   ├── bgm/
+│   ├── scenes/
+│   ├── full_audio.wav
+│   ├── timing_manifest.json
+│   └── summary.json
+└── phase3/
+    ├── images/
+    ├── clips/
+    ├── scenes/
+    ├── subtitles.srt
+    ├── final_raw.mp4
+    ├── final_output.mp4
+    ├── final_output_subtitled.mp4
+    └── summary.json
+```
+
+Depending on subtitle settings, the final playable video is usually one of:
+
+```text
+data/jobs/<job_id>/phase3/final_output.mp4
+data/jobs/<job_id>/phase3/final_output_subtitled.mp4
+```
+
+## Backend API
+
+### Health Check
+
+```bash
+curl http://localhost:8000/health
+```
+
+Expected:
+
+```json
+{"status":"ok"}
+```
+
+### Start Full Pipeline
+
+```bash
+curl -X POST http://localhost:8000/run-pipeline \
+  -H "Content-Type: application/json" \
+  -d '{"prompt":"A tiny robot discovers music on a silent moon."}'
+```
+
+Response:
+
+```json
+{
+  "job_id": "example_job_id",
+  "status": "pending"
+}
+```
+
+### Check Job Status
+
+```bash
+curl http://localhost:8000/status/<job_id>
+```
+
+The status object includes:
+
+- `status`: `pending`, `running`, `completed`, or `failed`
+- `current_phase`
+- `phases`
+- `progress`
+- `message`
+- `errors`
+- `outputs`
+
+### Stream Live Progress
+
+```bash
+curl http://localhost:8000/events/<job_id>
+```
+
+This endpoint uses Server-Sent Events.
+
+### Get Results
+
+```bash
+curl http://localhost:8000/result/<job_id>
+```
+
+The result includes:
+
+- job state
+- JSON previews
+- audio path and `/media/...` URL
+- video path and `/media/...` URL
+- download URL
+
+### Re-run A Specific Phase
+
+Re-run Phase 1 for a specific job:
+
+```bash
+curl -X POST http://localhost:8000/run-phase/<job_id>/1 \
+  -H "Content-Type: application/json" \
+  -d '{"prompt":"A brighter revised story prompt."}'
+```
+
+Re-run Phase 2:
+
+```bash
+curl -X POST http://localhost:8000/run-phase/<job_id>/2 \
+  -H "Content-Type: application/json" \
+  -d '{}'
+```
+
+Re-run Phase 3:
+
+```bash
+curl -X POST http://localhost:8000/run-phase/<job_id>/3 \
+  -H "Content-Type: application/json" \
+  -d '{}'
+```
+
+There is also a latest-job endpoint:
+
+```bash
+curl -X POST http://localhost:8000/run-phase/2 \
+  -H "Content-Type: application/json" \
+  -d '{}'
+```
+
+The frontend uses the job-specific endpoint.
+
+## Run Individual Phases
+
+### Phase 1
+
+Phase 1 is normally run by the Phase 4 backend. It requires `GOOGLE_API_KEY`.
+
+The backend calls:
+
+```python
+create_phase1_graph().invoke(...)
+```
+
+and writes artifacts through:
+
+```python
+serialize_phase1_outputs(...)
+```
+
+### Phase 2
+
+Run Phase 2 with the sample handoff path from `.env.example`:
+
+```bash
+python -m agents.audio_agent.agent
+```
+
+Run Phase 2 with a specific handoff:
+
+```bash
+PHASE2_HANDOFF_PATH=data/jobs/<job_id>/phase1/phase2_audio_handoff.json \
+python -m agents.audio_agent.agent
+```
+
+### Phase 3
+
+Run Phase 3 with explicit Phase 1 and Phase 2 directories:
 
 ```bash
 python -m agents.video_agent.agent \
-  --phase1-dir data/outputs/phase1/20260502_173240 \
-  --phase2-dir data/outputs/phase2/20260503_110433
+  --phase1-dir data/jobs/<job_id>/phase1 \
+  --phase2-dir data/jobs/<job_id>/phase2
 ```
 
-**Skip subtitle burn-in:**
+Skip subtitle burn-in:
 
 ```bash
-python -m agents.video_agent.agent --no-subtitles
+python -m agents.video_agent.agent \
+  --phase1-dir data/jobs/<job_id>/phase1 \
+  --phase2-dir data/jobs/<job_id>/phase2 \
+  --no-subtitles
 ```
 
-**Control images per scene:**
+Control image count:
 
 ```bash
-python -m agents.video_agent.agent --images-per-scene 4
+python -m agents.video_agent.agent \
+  --phase1-dir data/jobs/<job_id>/phase1 \
+  --phase2-dir data/jobs/<job_id>/phase2 \
+  --images-per-scene 4
 ```
 
-**PowerShell equivalent:**
+## Testing
 
-```powershell
-$env:PHASE1_RUN_DIR="data/outputs/phase1/20260502_173240"
-$env:PHASE2_RUN_DIR="data/outputs/phase2/20260503_110433"
-python -m agents.video_agent.agent
-```
-
-**With Ollama prompt enhancement (optional — requires Ollama running locally):**
+Run Python syntax checks:
 
 ```bash
-# Terminal 1 — start Ollama (if not already running)
-ollama pull llama3.1:8b
-ollama serve
-
-# Terminal 2 — run agent with Ollama enabled
-python -m agents.video_agent.agent --images-per-scene 3
-# (USE_OLLAMA defaults to false; set env var to enable)
+python -m compileall backend state_manager agents
 ```
 
-### Unit Tests
+Run all tests:
 
 ```bash
-python -m pytest tests/unit/test_phase3.py -v
+pytest -q
 ```
 
-15 tests covering all MCP tools and the full agent integration pipeline including edge cases (missing audio, PIL fallback, all Ken Burns effects, all mood palettes).
+Run phase-specific tests:
 
-### Phase 3 Sample Output
+```bash
+pytest tests/unit/test_phase1.py -q
+pytest tests/unit/test_phase2.py -q
+pytest tests/unit/test_phase3.py -q
+```
 
-Sample output has been generated at:
+Run frontend build:
+
+```bash
+cd frontend
+npm run build
+```
+
+If tests fail with missing Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+If frontend install/build fails, check Node and reinstall:
+
+```bash
+cd frontend
+rm -rf node_modules
+npm install
+npm run build
+```
+
+## Docker
+
+Build and run both services:
+
+```bash
+docker compose up --build
+```
+
+Open:
 
 ```text
-data/outputs/phase3/20260503_151806/
+http://localhost:5173
 ```
 
-The final video is at:
+Backend:
 
 ```text
-data/outputs/phase3/20260503_151806/final_output.mp4
+http://localhost:8000
 ```
 
----
+The compose setup mounts local `./data` into the backend container, so generated jobs remain on your machine.
 
-## API Keys & Environment File
+## Useful Environment Variables
 
-The `.env` file is included in `.gitignore` and should **never be committed to GitHub**.
+| Variable | Required | Default | Purpose |
+|----------|----------|---------|---------|
+| `GOOGLE_API_KEY` | Yes for Phase 1 | none | Gemini API key |
+| `PHASE1_MODEL` | No | `gemini-1.5-flash` in code, example uses `gemini-2.0-flash` | Gemini model for story generation |
+| `PHASE1_OUTPUT_DIR` | No | `data/outputs` | Manual Phase 1 output root |
+| `PHASE2_HANDOFF_PATH` | No | bundled sample path | Manual Phase 2 handoff |
+| `PHASE2_OUTPUT_DIR` | No | `data/outputs/phase2` | Manual Phase 2 output root |
+| `BURN_SUBTITLES` | No | `true` | Burn subtitles into final video |
+| `USE_OLLAMA` | No | `false` | Optional prompt enhancement in Phase 3 |
+| `IMAGES_PER_SCENE` | No | `3` | Number of generated images per scene |
 
-| Phase | Service | Key Required | Notes |
-|-------|---------|-------------|-------|
-| Phase 1 | Ollama / Claude / GPT-4 | Optional | Ollama is free and local; cloud APIs need keys |
-| Phase 2 | Edge TTS | ❌ None | Free, no account needed |
-| Phase 2 | ElevenLabs (optional) | ✅ `ELEVENLABS_API_KEY` | Only if replacing Edge TTS |
-| Phase 3 | Pollinations AI | ❌ None | Free, no account needed |
-| Phase 3 | Ollama | ❌ None | Free, runs locally |
+## Troubleshooting
 
-**Current `.env` template:**
+### Backend imports fail
+
+Make sure the virtual environment is active and dependencies are installed:
+
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Phase 1 fails
+
+Check `.env`:
 
 ```env
-# Phase 1 — LLM (only needed if using cloud APIs)
-# ANTHROPIC_API_KEY=sk-ant-...
-# OPENAI_API_KEY=sk-...
-# OLLAMA_MODEL=llama3.1:8b
-
-# Phase 2 — TTS (only needed if replacing Edge TTS)
-# ELEVENLABS_API_KEY=...
-
-# Phase 3 — all free, no keys needed
-# IMAGES_PER_SCENE=3
-# BURN_SUBTITLES=true
-# USE_OLLAMA=false
+GOOGLE_API_KEY=your_real_key
+PHASE1_MODEL=gemini-2.0-flash
 ```
 
-Everything commented out means the project runs fully offline and free out of the box.
+Then restart the backend.
+
+### Phase 2 audio fails
+
+Phase 2 uses Edge TTS and FFmpeg conversion. Confirm FFmpeg works:
+
+```bash
+ffmpeg -version
+```
+
+### Phase 3 video fails
+
+Confirm FFmpeg is installed and visible from the same shell running the backend:
+
+```bash
+which ffmpeg
+ffmpeg -version
+```
+
+Also check the job's `state.json` and `phase3/summary.json` if present.
+
+### Frontend cannot reach backend
+
+Make sure FastAPI is running on port `8000`:
+
+```bash
+curl http://localhost:8000/health
+```
+
+Then restart Vite:
+
+```bash
+cd frontend
+npm run dev
+```
+
+### Video or audio does not play in browser
+
+Check `/result/<job_id>` and look for:
+
+```json
+{
+  "assets": {
+    "audio_url": "/media/...",
+    "video_url": "/media/..."
+  }
+}
+```
+
+If paths are missing, the relevant phase did not complete.
+
+## Git Notes
+
+Generated jobs, output media, caches, virtual environments, and `.env` are ignored by Git. Commit source code, configs, tests, and documentation only.
