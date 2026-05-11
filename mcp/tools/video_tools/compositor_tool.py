@@ -15,9 +15,6 @@ import os
 import json
 from pathlib import Path
 
-# ── ImageMagick path for MoviePy TextClip (Windows) ───────────────────────────
-import moviepy.config as mpy_config
-mpy_config.IMAGEMAGICK_BINARY = r"D:\ImageMagick-7.1.2-Q16\magick.exe"
 from typing import Any, Dict, List, Optional
 
 import sys
@@ -25,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from mcp.base_tool import BaseTool
 
 try:
-    from moviepy.editor import (
+    from moviepy import (
         VideoFileClip,
         ImageClip,
         ColorClip,
@@ -51,17 +48,14 @@ def create_title_card(
     bg = ColorClip(size=(width, height), color=(10, 10, 20), duration=duration)
     try:
         txt = TextClip(
-            title,
-            fontsize=52,
+            text=title,
+            font_size=52,
             color="white",
-            font="DejaVu-Sans-Bold",
-            size=(width - 100, None),
-            method="caption",
-        ).set_duration(duration).set_position("center")
-        card = CompositeVideoClip([bg, txt]).set_fps(fps)
+            duration=duration,
+        ).with_position("center")
+        card = CompositeVideoClip([bg, txt]).with_fps(fps)
     except Exception:
-        # Fallback: just dark card if TextClip fails (ImageMagick not found)
-        card = bg.set_fps(fps)
+        card = bg.with_fps(fps)
 
     if output_path:
         card.write_videofile(
@@ -101,18 +95,15 @@ def composite_with_moviepy(
         print(f"  [compositor] Creating title card: '{story_title}'")
         title_clip = ColorClip(
             size=(width, height), color=(10, 10, 20), duration=3.0
-        ).set_fps(fps)
-        # Attempt text overlay
+        ).with_fps(fps)
         try:
             txt = TextClip(
-                story_title,
-                fontsize=52,
+                text=story_title,
+                font_size=52,
                 color="white",
-                font="DejaVu-Sans-Bold",
-                size=(width - 120, None),
-                method="caption",
-            ).set_duration(3.0).set_position("center")
-            title_clip = CompositeVideoClip([title_clip, txt]).set_fps(fps)
+                duration=3.0,
+            ).with_position("center")
+            title_clip = CompositeVideoClip([title_clip, txt]).with_fps(fps)
         except Exception as e:
             print(f"  [compositor] TextClip failed ({e}), skipping title text.")
         clips.append(title_clip)
@@ -123,10 +114,9 @@ def composite_with_moviepy(
         if not os.path.exists(p):
             print(f"  [compositor] WARNING: clip not found: {p}")
             continue
-        clip = VideoFileClip(p).set_fps(fps)
-        # Resize if needed
+        clip = VideoFileClip(p).with_fps(fps)
         if clip.size != (width, height):
-            clip = clip.resize((width, height))
+            clip = clip.resized((width, height))
         loaded.append(clip)
         print(f"  [compositor] Loaded {Path(p).name} ({clip.duration:.1f}s)")
 
@@ -139,15 +129,15 @@ def composite_with_moviepy(
     if add_end_card:
         end_clip = ColorClip(
             size=(width, height), color=(10, 10, 20), duration=2.0
-        ).set_fps(fps)
+        ).with_fps(fps)
         try:
             end_txt = TextClip(
-                "— The End —",
-                fontsize=46,
+                text="— The End —",
+                font_size=46,
                 color="white",
-                font="DejaVu-Sans-Bold",
-            ).set_duration(2.0).set_position("center")
-            end_clip = CompositeVideoClip([end_clip, end_txt]).set_fps(fps)
+                duration=2.0,
+            ).with_position("center")
+            end_clip = CompositeVideoClip([end_clip, end_txt]).with_fps(fps)
         except Exception:
             pass
         clips.append(end_clip)
@@ -164,7 +154,7 @@ def composite_with_moviepy(
     else:
         final = concatenate_videoclips(clips, method="compose")
 
-    final = final.set_fps(fps)
+    final = final.with_fps(fps)
 
     print(f"  [compositor] Writing final video → {output_path}")
     final.write_videofile(

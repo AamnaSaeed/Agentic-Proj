@@ -40,6 +40,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from mcp.tools.vision_tools.image_gen_tool import ImageGenTool
 from mcp.tools.video_tools.ffmpeg_tool import (
     FFmpegTool,
+    _ffmpeg_exe,
     get_audio_duration,
     image_to_video_ken_burns,
     apply_fade,
@@ -200,7 +201,7 @@ def crossfade_image_clips(
     final_label = f"v{n-1}"
 
     cmd = (
-        ["ffmpeg", "-y"]
+        [_ffmpeg_exe(), "-y"]
         + inputs
         + [
             "-filter_complex", filter_complex,
@@ -230,7 +231,7 @@ def ffmpeg_optimize(input_path: str, output_path: str) -> str:
     """Re-encode with CRF 18 (high quality) + slow preset for final delivery."""
     print(f"  [optimize] FFmpeg quality pass (CRF 18)…")
     cmd = [
-        "ffmpeg", "-y",
+        _ffmpeg_exe(), "-y",
         "-i", input_path,
         "-vcodec", "libx264",
         "-crf", "18",

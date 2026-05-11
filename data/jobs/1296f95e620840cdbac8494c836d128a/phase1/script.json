@@ -1,0 +1,115 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "The horizon seems endless, yet here I am, ready to uncover its secrets.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 1.0,
+          "duration_hint_seconds": 6.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "Equipment's all set. Let's make history.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 7.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, A desolate, dusty Martian landscape bathed in the eerie glow of a distant sun., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "background_music_mood": "hopeful",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    },
+    {
+      "scene_id": "scene_002",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "A hidden path... let's see where you lead.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 1.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "Time to uncover the mysteries beneath.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 6.0,
+          "duration_hint_seconds": 4.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, The mouth of a hidden cavern, partially covered by rocks., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_left",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "background_music_mood": "mysterious",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    },
+    {
+      "scene_id": "scene_003",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "Incredible... it's like an alien paradise.",
+          "emotion": "excited",
+          "timing_offset_seconds": 1.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "This changes everything we know about Mars.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 6.0,
+          "duration_hint_seconds": 4.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, A vast subterranean ocean, glowing with an ethereal blue light., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), Bioluminescent Creatures (ethereal aquatic creatures with glowing patterns, diverse shapes and sizes, peaceful presence), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "ken_burns",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "background_music_mood": "majestic",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    },
+    {
+      "scene_id": "scene_004",
+      "dialogue": [],
+      "visual_prompt": "3D Pixar-style CGI, The shore of the glowing ocean., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "background_music_mood": "reflective",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    },
+    {
+      "scene_id": "scene_005",
+      "dialogue": [],
+      "visual_prompt": "3D Pixar-style CGI, The Martian surface, now under a rising sun., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), Dr. Ethan Ramirez (middle-aged man with short black hair, wearing a scientist’s lab coat, analytical expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_out",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "background_music_mood": "hopeful",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 25
+    }
+  ]
+}

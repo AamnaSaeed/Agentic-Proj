@@ -1,0 +1,157 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "Mars, here I am. Let's uncover your secrets.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "Mission Control, scenery looks just like the simulations.",
+          "emotion": "sad",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_003",
+          "character_id": "char_002",
+          "text": "Affirmative, Alex. Keep us updated.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 10.0,
+          "duration_hint_seconds": 4.0
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, The barren, rusty surface of Mars. Dust storms occasionally sweep across the landscape., Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "background_music_mood": "inspirational",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_002",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "The readings are off the charts. Something's definitely here.",
+          "emotion": "curious",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "Approaching the cliff now. Let's see what's below.",
+          "emotion": "adventurous",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, Mars’ rocky terrain leading to a cliffside, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, dynamic shot showing the vastness of the terrain",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_right",
+      "transition_in": "cut",
+      "transition_out": "dissolve",
+      "background_music_mood": "adventurous",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_003",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "Incredible... an ocean beneath the surface!",
+          "emotion": "awe",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "It's glowing with colors I've never seen before.",
+          "emotion": "wonder",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, The edge of a massive crater on Mars, revealing a vast ocean shimmering with an ethereal glow beneath the surface, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), vibrant colors reflecting off the water, natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, awe-inspiring wide shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "dissolve",
+      "transition_out": "cut",
+      "background_music_mood": "awe-inspiring",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_004",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "The drone's capturing everything. Look at those creatures!",
+          "emotion": "inspired",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "This changes everything we know about life.",
+          "emotion": "reflective",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, The glowing ocean beneath the surface, with strange marine creatures swimming gracefully, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), luminescent sea creatures with transparent fins and a glowing, color-changing body, natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, underwater shot with a sense of wonder",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "ken_burns",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "background_music_mood": "reflective",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_005",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "Data sent. This discovery will inspire generations.",
+          "emotion": "hopeful",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "Goodbye, Mars. Until next time.",
+          "emotion": "fulfilled",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, Inside the spacecraft, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression) preparing to return home, viewing the glowing ocean on a monitor, natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, intimate interior shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_out",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "background_music_mood": "hopeful",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    }
+  ]
+}

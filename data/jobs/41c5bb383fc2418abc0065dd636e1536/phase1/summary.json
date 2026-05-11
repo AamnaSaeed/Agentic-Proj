@@ -1,0 +1,301 @@
+{
+  "run_status": "success",
+  "timestamp": "2026-05-07T13:05:18.998235",
+  "errors": [],
+  "tools_log": [
+    {
+      "node": "story_agent",
+      "tool": "validate_story_arc",
+      "args": {
+        "arc_positions": [
+          "intro",
+          "rising_action",
+          "climax",
+          "falling_action",
+          "resolution"
+        ]
+      }
+    },
+    {
+      "node": "story_agent",
+      "tool": "estimate_duration",
+      "args": {
+        "scene_count": 5,
+        "avg_dialogue_lines_per_scene": 4
+      }
+    },
+    {
+      "node": "character_agent",
+      "tool": "check_consistency",
+      "args": {
+        "character_ids": [
+          "char_001",
+          "char_002"
+        ]
+      }
+    },
+    {
+      "node": "character_agent",
+      "tool": "check_consistency",
+      "args": {
+        "character_ids": [
+          "char_001",
+          "char_002"
+        ],
+        "scene_character_map": {
+          "scene_001": [
+            "char_001",
+            "char_002"
+          ],
+          "scene_002": [
+            "char_001"
+          ],
+          "scene_003": [
+            "char_001"
+          ],
+          "scene_004": [
+            "char_001"
+          ],
+          "scene_005": [
+            "char_001",
+            "char_002"
+          ]
+        }
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "Aboard a futuristic spacecraft hovering above the red, barren landscape of Mars.",
+        "scene_tone": "Hopeful and awe-struck",
+        "characters_present": [
+          "Alex"
+        ],
+        "character_descriptions": [
+          "young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "Inside the spacecraft's research lab, filled with high-tech gadgets and displays.",
+        "scene_tone": "Curious and determined",
+        "characters_present": [
+          "Alex"
+        ],
+        "character_descriptions": [
+          "young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "The surface of Mars, with its iconic red sands and rocky terrain.",
+        "scene_tone": "Tense and exhilarating",
+        "characters_present": [
+          "Alex"
+        ],
+        "character_descriptions": [
+          "young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "The glowing cavern, echoing with the sound of gentle waves.",
+        "scene_tone": "Reflective and emotional",
+        "characters_present": [
+          "Alex"
+        ],
+        "character_descriptions": [
+          "young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "Back on the spacecraft, with Earth visible in the distance through the window.",
+        "scene_tone": "Triumphant and hopeful",
+        "characters_present": [
+          "Alex"
+        ],
+        "character_descriptions": [
+          "young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Mars, you hold secrets like whispered dreams waiting to be heard.",
+        "scene_tone": "Hopeful and awe-struck",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "I believe there's something wondrous out there, something that could change everything.",
+        "scene_tone": "Hopeful and awe-struck",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "The surface readings are off the charts. What could be causing this?",
+        "scene_tone": "Curious and determined",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "I have to know what's out there. Let's prep the rover for a closer look.",
+        "scene_tone": "Curious and determined",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "I've never seen anything like this... The ocean glows like a living rainbow.",
+        "scene_tone": "Tense and exhilarating",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "This discovery... it's a turning point for us, for Earth.",
+        "scene_tone": "Reflective and emotional",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Sending the data now. This is just the beginning.",
+        "scene_tone": "Triumphant and hopeful",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Mission Control, we've found something extraordinary. It's beautiful.",
+        "scene_tone": "Triumphant and hopeful",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Alex, your findings could redefine our understanding of Mars.",
+        "scene_tone": "Triumphant and hopeful",
+        "character_role": "supporting"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "With this, we open a new chapter in space exploration.",
+        "scene_tone": "Triumphant and hopeful",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "Mars, you hold secrets like whispered dreams waiting to be heard.",
+          "I believe there's something wondrous out there, something that could change everything."
+        ],
+        "target_duration_seconds": 30
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "The surface readings are off the charts. What could be causing this?",
+          "I have to know what's out there. Let's prep the rover for a closer look."
+        ],
+        "target_duration_seconds": 30
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "I've never seen anything like this... The ocean glows like a living rainbow."
+        ],
+        "target_duration_seconds": 40
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "This discovery... it's a turning point for us, for Earth."
+        ],
+        "target_duration_seconds": 30
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "Sending the data now. This is just the beginning.",
+          "Mission Control, we've found something extraordinary. It's beautiful.",
+          "Alex, your findings could redefine our understanding of Mars.",
+          "With this, we open a new chapter in space exploration."
+        ],
+        "target_duration_seconds": 30
+      }
+    }
+  ],
+  "artifact_paths": {
+    "story": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\story.json",
+    "characters": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\characters.json",
+    "script": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\script.json",
+    "phase2_audio_handoff": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\phase2_audio_handoff.json",
+    "phase3_video_handoff": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\phase3_video_handoff.json"
+  },
+  "stats": {
+    "scene_count": 5,
+    "character_count": 2,
+    "total_dialogue_lines": 10,
+    "estimated_total_seconds": 160,
+    "total_audio_segments": 10
+  }
+}

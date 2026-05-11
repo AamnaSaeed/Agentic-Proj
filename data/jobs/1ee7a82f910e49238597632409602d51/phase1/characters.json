@@ -1,0 +1,126 @@
+{
+  "characters": [
+    {
+      "character_id": "char_001",
+      "name": "Alex",
+      "role": "protagonist",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "curious and hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "excited",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "explorer",
+          "motivational"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Young adult with short sandy hair",
+        "clothing": "Sleek white and silver astronaut suit with a transparent helmet",
+        "distinctive_features": "Eyes filled with curiosity and determination",
+        "color_palette": [
+          "#FFFFFF",
+          "#C0C0C0",
+          "#FFD700"
+        ],
+        "art_style_prompt": "young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination"
+      },
+      "personality_traits": [
+        "inquisitive",
+        "brave",
+        "determined",
+        "hopeful"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_002",
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ],
+      "background": "Alex has always dreamed of uncovering the secrets of Mars. Their determination and hope drive the narrative forward."
+    },
+    {
+      "character_id": "char_002",
+      "name": "Dr. Elena Carter",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "adult",
+        "tone": "analytical and warm",
+        "speed": 0.9,
+        "emotion_baseline": "calm",
+        "accent": "british",
+        "tts_style_tags": [
+          "scientist",
+          "nurturing"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Middle-aged woman with silver-streaked black hair",
+        "clothing": "Lab coat over a casual turtleneck",
+        "distinctive_features": "Glasses perched on her nose, with a thoughtful expression",
+        "color_palette": [
+          "#000000",
+          "#FFFFFF",
+          "#808080"
+        ],
+        "art_style_prompt": "middle-aged woman with silver-streaked black hair, wearing a lab coat over a casual turtleneck, glasses perched on her nose, with a thoughtful expression"
+      },
+      "personality_traits": [
+        "supportive",
+        "wise",
+        "nurturing",
+        "thoughtful"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_004",
+        "scene_005"
+      ],
+      "background": "A seasoned scientist with a nurturing demeanor, Dr. Carter is supportive of new ideas and discoveries, providing guidance and wisdom."
+    },
+    {
+      "character_id": "char_003",
+      "name": "Rover AI",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "adult",
+        "tone": "monotone and precise",
+        "speed": 1.2,
+        "emotion_baseline": "neutral",
+        "accent": "robotic",
+        "tts_style_tags": [
+          "robot",
+          "efficient"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Sleek, compact robotic rover with a smooth metallic surface",
+        "clothing": "N/A",
+        "distinctive_features": "Glowing interface, exuding an aura of intelligence and efficiency",
+        "color_palette": [
+          "#A9A9A9",
+          "#0000FF",
+          "#00FF00"
+        ],
+        "art_style_prompt": "sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency"
+      },
+      "personality_traits": [
+        "efficient",
+        "precise",
+        "intelligent"
+      ],
+      "scenes_appearing_in": [
+        "scene_002",
+        "scene_003",
+        "scene_004"
+      ],
+      "background": "The Rover AI is efficient and precise, designed to assist with navigation and data collection during explorations."
+    }
+  ],
+  "global_art_style": "3D Pixar-style CGI"
+}

@@ -11,13 +11,46 @@ Handles:
 
 import os
 import subprocess
-import json
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from mcp.base_tool import BaseTool
+
+
+def _ffmpeg_exe() -> str:
+    """Return the ffmpeg executable, preferring system PATH then imageio-ffmpeg bundle."""
+    import shutil
+    if shutil.which("ffmpeg"):
+        return "ffmpeg"
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:
+        pass
+    raise FileNotFoundError(
+        "ffmpeg not found. Install ffmpeg and add it to PATH, "
+        "or run: pip install imageio-ffmpeg"
+    )
+
+
+def _get_duration(media_path: str) -> float:
+    """Return duration in seconds using ffmpeg (works without ffprobe)."""
+    result = subprocess.run(
+        [_ffmpeg_exe(), "-i", media_path],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+    )
+    # ffmpeg prints duration to stderr even when no output file is given
+    for line in result.stderr.splitlines():
+        if "Duration:" in line:
+            # e.g. "  Duration: 00:00:22.10, start: 0.000000, bitrate: ..."
+            duration_str = line.split("Duration:")[1].split(",")[0].strip()
+            h, m, s = duration_str.split(":")
+            return int(h) * 3600 + int(m) * 60 + float(s)
+    raise RuntimeError(f"Could not read duration from {media_path}")
 
 
 def _run(cmd: List[str], label: str = "ffmpeg") -> subprocess.CompletedProcess:
@@ -49,6 +82,8 @@ def image_to_video_ken_burns(
     Animate a still image with a Ken Burns effect and output an MP4 clip.
     No audio is embedded here — audio is added in a later step.
     """
+    image_path = str(Path(image_path).resolve())
+    output_path = str(Path(output_path).resolve())
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
     # Build zoompan filter
@@ -81,7 +116,7 @@ def image_to_video_ken_burns(
         vf = f"scale={width}:{height},setsar=1"
 
     cmd = [
-        "ffmpeg", "-y",
+        _ffmpeg_exe(), "-y",
         "-loop", "1",
         "-i", image_path,
         "-vf", vf,
@@ -105,20 +140,16 @@ def add_audio_to_video(
     """
     Mux audio into video. Audio is trimmed/padded to match video duration.
     """
+    video_path = str(Path(video_path).resolve())
+    audio_path = str(Path(audio_path).resolve())
+    output_path = str(Path(output_path).resolve())
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
-    # Get video duration if not provided
     if video_duration is None:
-        probe = subprocess.run(
-            ["ffprobe", "-v", "quiet", "-print_format", "json",
-             "-show_format", video_path],
-            capture_output=True, text=True,
-        )
-        info = json.loads(probe.stdout)
-        video_duration = float(info["format"]["duration"])
+        video_duration = _get_duration(video_path)
 
     cmd = [
-        "ffmpeg", "-y",
+        _ffmpeg_exe(), "-y",
         "-i", video_path,
         "-i", audio_path,
         "-map", "0:v:0",
@@ -141,23 +172,18 @@ def apply_fade(
     fade_out_sec: float = 0.5,
 ) -> str:
     """Apply fade-in and fade-out to a clip."""
+    video_path = str(Path(video_path).resolve())
+    output_path = str(Path(output_path).resolve())
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
-    # Get duration
-    probe = subprocess.run(
-        ["ffprobe", "-v", "quiet", "-print_format", "json",
-         "-show_format", video_path],
-        capture_output=True, text=True,
-    )
-    info = json.loads(probe.stdout)
-    dur = float(info["format"]["duration"])
+    dur = _get_duration(video_path)
     fade_out_start = max(0, dur - fade_out_sec)
 
     vf = f"fade=t=in:st=0:d={fade_in_sec},fade=t=out:st={fade_out_start:.3f}:d={fade_out_sec}"
     af = f"afade=t=in:st=0:d={fade_in_sec},afade=t=out:st={fade_out_start:.3f}:d={fade_out_sec}"
 
     cmd = [
-        "ffmpeg", "-y",
+        _ffmpeg_exe(), "-y",
         "-i", video_path,
         "-vf", vf,
         "-af", af,
@@ -179,6 +205,8 @@ def concatenate_clips(
     Concatenate multiple MP4 clips into one final video using concat demuxer.
     All clips must have the same resolution and codec.
     """
+    output_path = str(Path(output_path).resolve())
+    clip_paths = [str(Path(p).resolve()) for p in clip_paths]
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
 
     # Write concat list file
@@ -188,7 +216,7 @@ def concatenate_clips(
             f.write(f"file '{os.path.abspath(p)}'\n")
 
     cmd = [
-        "ffmpeg", "-y",
+        _ffmpeg_exe(), "-y",
         "-f", "concat",
         "-safe", "0",
         "-i", str(list_file),
@@ -208,9 +236,12 @@ def burn_subtitles(
     output_path: str,
 ) -> str:
     """Burn SRT subtitles into video."""
+    video_path = str(Path(video_path).resolve())
+    srt_path = str(Path(srt_path).resolve()).replace("\\", "/").replace(":", "\\:")
+    output_path = str(Path(output_path).resolve())
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
     cmd = [
-        "ffmpeg", "-y",
+        _ffmpeg_exe(), "-y",
         "-i", video_path,
         "-vf", f"subtitles={srt_path}:force_style='FontSize=22,PrimaryColour=&Hffffff&'",
         "-c:a", "copy",
@@ -222,13 +253,7 @@ def burn_subtitles(
 
 def get_audio_duration(audio_path: str) -> float:
     """Return duration in seconds of an audio file."""
-    probe = subprocess.run(
-        ["ffprobe", "-v", "quiet", "-print_format", "json",
-         "-show_format", audio_path],
-        capture_output=True, text=True,
-    )
-    info = json.loads(probe.stdout)
-    return float(info["format"]["duration"])
+    return _get_duration(str(Path(audio_path).resolve()))
 
 
 # ── MCP Tool classes ───────────────────────────────────────────────────────────

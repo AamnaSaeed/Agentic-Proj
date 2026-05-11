@@ -1,0 +1,355 @@
+{
+  "job_id": "41c5bb383fc2418abc0065dd636e1536",
+  "prompt": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+  "status": "failed",
+  "current_phase": null,
+  "phases": {
+    "1": "completed",
+    "2": "completed",
+    "3": "running"
+  },
+  "progress": 75,
+  "message": "No scene clips produced.",
+  "errors": [
+    "No scene clips produced."
+  ],
+  "outputs": {
+    "phase1": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1",
+      "artifacts": {
+        "story": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\story.json",
+        "characters": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\characters.json",
+        "script": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\script.json",
+        "phase2_audio_handoff": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\phase2_audio_handoff.json",
+        "phase3_video_handoff": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\phase3_video_handoff.json",
+        "summary": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase1\\summary.json"
+      },
+      "story": {
+        "title": "The Glowing Ocean of Mars",
+        "genre": "Sci-Fi",
+        "themes": [
+          "exploration",
+          "discovery",
+          "hope"
+        ],
+        "arc": [
+          "intro",
+          "rising_action",
+          "climax",
+          "falling_action",
+          "resolution"
+        ],
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "title": "Dreams of Mars",
+            "setting": "Aboard a futuristic spacecraft hovering above the red, barren landscape of Mars.",
+            "tone": "Hopeful and awe-struck",
+            "arc_position": "intro",
+            "summary": "An astronaut, Alex, gazes out of the spaceship's window at the Martian surface. Through a voice-over, Alex shares dreams and aspirations of discovering something extraordinary that could change humanity's perception of Mars.",
+            "estimated_duration_seconds": 30,
+            "themes": [
+              "exploration",
+              "hope"
+            ]
+          },
+          {
+            "scene_id": "scene_002",
+            "title": "Unusual Readings",
+            "setting": "Inside the spacecraft's research lab, filled with high-tech gadgets and displays.",
+            "tone": "Curious and determined",
+            "arc_position": "rising_action",
+            "summary": "Alex analyzes a series of unusual readings from the Martian surface. As the readings intensify, excitement builds. Alex decides to investigate further, preparing a rover for an exploration mission.",
+            "estimated_duration_seconds": 30,
+            "themes": [
+              "discovery",
+              "determination"
+            ]
+          },
+          {
+            "scene_id": "scene_003",
+            "title": "The Hidden Crevice",
+            "setting": "The surface of Mars, with its iconic red sands and rocky terrain.",
+            "tone": "Tense and exhilarating",
+            "arc_position": "climax",
+            "summary": "The rover, controlled by Alex, descends into a hidden crevice, revealing an underground cavern. The walls start to shimmer with light. As the rover moves deeper, Alex witnesses a stunning glowing ocean, its waves reflecting a spectrum of colors, confirming the existence of life-sustaining water beneath Mars.",
+            "estimated_duration_seconds": 40,
+            "themes": [
+              "discovery",
+              "exploration"
+            ]
+          },
+          {
+            "scene_id": "scene_004",
+            "title": "Contemplating the Discovery",
+            "setting": "The glowing cavern, echoing with the sound of gentle waves.",
+            "tone": "Reflective and emotional",
+            "arc_position": "falling_action",
+            "summary": "Alex records data and captures images of the glowing ocean, contemplating the significance of this discovery. The realization dawns that this could be a turning point for space exploration and Earth's future.",
+            "estimated_duration_seconds": 30,
+            "themes": [
+              "reflection",
+              "hope"
+            ]
+          },
+          {
+            "scene_id": "scene_005",
+            "title": "A New Beginning",
+            "setting": "Back on the spacecraft, with Earth visible in the distance through the window.",
+            "tone": "Triumphant and hopeful",
+            "arc_position": "resolution",
+            "summary": "Alex sends the data back to Earth, smiling with a sense of accomplishment. The final voice-over expresses hope for Mars' future exploration and the potential for new beginnings.",
+            "estimated_duration_seconds": 30,
+            "themes": [
+              "hope",
+              "new beginnings"
+            ]
+          }
+        ],
+        "total_estimated_duration_seconds": 160,
+        "premise": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+        "setting_description": "A futuristic spacecraft orbiting Mars, equipped with advanced technology for exploration, and the mysterious, vibrant landscape of Mars with its hidden wonders."
+      },
+      "characters": {
+        "characters": [
+          {
+            "character_id": "char_001",
+            "name": "Alex",
+            "role": "protagonist",
+            "voice_config": {
+              "gender": "neutral",
+              "age_range": "young_adult",
+              "tone": "hopeful and determined",
+              "speed": 1.0,
+              "emotion_baseline": "enthusiastic",
+              "accent": "neutral",
+              "tts_style_tags": [
+                "inquisitive",
+                "inspirational"
+              ]
+            },
+            "appearance": {
+              "physical_description": "A young astronaut with short dark hair, slim build, and curious eyes.",
+              "clothing": "Wearing a sleek, futuristic blue and white spacesuit with mission insignia patches.",
+              "distinctive_features": "Always seen with a digital wrist device.",
+              "color_palette": [
+                "#0000FF",
+                "#FFFFFF",
+                "#000000"
+              ],
+              "art_style_prompt": "young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes"
+            },
+            "personality_traits": [
+              "curious",
+              "optimistic",
+              "determined",
+              "contemplative"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_002",
+              "scene_003",
+              "scene_004",
+              "scene_005"
+            ],
+            "background": "Driven by the desire to explore and discover the unknown, Alex values knowledge and the potential for new beginnings."
+          },
+          {
+            "character_id": "char_002",
+            "name": "Mission Control",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "male",
+              "age_range": "adult",
+              "tone": "calm and authoritative",
+              "speed": 0.9,
+              "emotion_baseline": "reassuring",
+              "accent": "british",
+              "tts_style_tags": [
+                "guiding",
+                "steady"
+              ]
+            },
+            "appearance": {
+              "physical_description": "Not applicable (voice-over character).",
+              "clothing": "n/a",
+              "distinctive_features": "n/a",
+              "color_palette": [],
+              "art_style_prompt": "n/a"
+            },
+            "personality_traits": [
+              "steady",
+              "reassuring",
+              "supportive"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_005"
+            ],
+            "background": "The voice of Mission Control provides guidance and support to Alex, representing the connection to Earth and the broader mission."
+          }
+        ],
+        "global_art_style": "3D Pixar-style CGI"
+      },
+      "script": {
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Mars, you hold secrets like whispered dreams waiting to be heard.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 8.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "I believe there's something wondrous out there, something that could change everything.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 8.0,
+                "duration_hint_seconds": 6.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, Aboard a futuristic spacecraft hovering above the red, barren landscape of Mars., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "pan_left",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "inspirational",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 30
+          },
+          {
+            "scene_id": "scene_002",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "The surface readings are off the charts. What could be causing this?",
+                "emotion": "curious",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 8.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "I have to know what's out there. Let's prep the rover for a closer look.",
+                "emotion": "curious",
+                "timing_offset_seconds": 8.0,
+                "duration_hint_seconds": 8.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, Inside the spacecraft's research lab, filled with high-tech gadgets and displays., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "zoom_in",
+            "transition_in": "cut",
+            "transition_out": "dissolve",
+            "background_music_mood": "tense",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 30
+          },
+          {
+            "scene_id": "scene_003",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "I've never seen anything like this... The ocean glows like a living rainbow.",
+                "emotion": "sad",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 8.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, The surface of Mars, with its iconic red sands and rocky terrain., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "ken_burns",
+            "transition_in": "cut",
+            "transition_out": "fade_out",
+            "background_music_mood": "awe-inspiring",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 40
+          },
+          {
+            "scene_id": "scene_004",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "This discovery... it's a turning point for us, for Earth.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 8.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, The glowing cavern, echoing with the sound of gentle waves., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "zoom_in",
+            "transition_in": "fade_in",
+            "transition_out": "dissolve",
+            "background_music_mood": "reflective",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 30
+          },
+          {
+            "scene_id": "scene_005",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Sending the data now. This is just the beginning.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 8.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "Mission Control, we've found something extraordinary. It's beautiful.",
+                "emotion": "sad",
+                "timing_offset_seconds": 8.0,
+                "duration_hint_seconds": 7.0
+              },
+              {
+                "line_id": "line_003",
+                "character_id": "char_002",
+                "text": "Alex, your findings could redefine our understanding of Mars.",
+                "emotion": "calm",
+                "timing_offset_seconds": 15.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_004",
+                "character_id": "char_001",
+                "text": "With this, we open a new chapter in space exploration.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 20.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, Back on the spacecraft, with Earth visible in the distance through the window., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "pan_right",
+            "transition_in": "cut",
+            "transition_out": "fade_out",
+            "background_music_mood": "triumphant",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 30
+          }
+        ]
+      }
+    },
+    "phase2": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase2",
+      "timing_manifest": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase2\\timing_manifest.json",
+      "full_audio": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase2\\full_audio.wav",
+      "summary": "D:\\agentic project\\data\\jobs\\41c5bb383fc2418abc0065dd636e1536\\phase2\\summary.json",
+      "scene_count": 5,
+      "segment_count": 10
+    }
+  },
+  "created_at": "2026-05-07T08:04:12Z",
+  "updated_at": "2026-05-07T08:06:33Z"
+}

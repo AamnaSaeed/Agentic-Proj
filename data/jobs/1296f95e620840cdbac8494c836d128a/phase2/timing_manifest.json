@@ -1,0 +1,131 @@
+{
+  "phase": "phase2_audio",
+  "run_status": "success",
+  "output_dir": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2",
+  "segments": [
+    {
+      "segment_id": "scene_001_line_001",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "The horizon seems endless, yet here I am, ready to uncover its secrets.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\segments\\scene_001_line_001.wav",
+      "start_ms": 1000,
+      "end_ms": 6304,
+      "duration_ms": 5304,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_001_line_002",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Equipment's all set. Let's make history.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\segments\\scene_001_line_002.wav",
+      "start_ms": 7000,
+      "end_ms": 11248,
+      "duration_ms": 4248,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_002_line_001",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "A hidden path... let's see where you lead.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\segments\\scene_002_line_001.wav",
+      "start_ms": 1000,
+      "end_ms": 4168,
+      "duration_ms": 3168,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_002_line_002",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Time to uncover the mysteries beneath.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\segments\\scene_002_line_002.wav",
+      "start_ms": 6000,
+      "end_ms": 8880,
+      "duration_ms": 2880,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_003_line_001",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Incredible... it's like an alien paradise.",
+      "emotion": "excited",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\segments\\scene_003_line_001.wav",
+      "start_ms": 1000,
+      "end_ms": 4480,
+      "duration_ms": 3480,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_003_line_002",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "This changes everything we know about Mars.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\segments\\scene_003_line_002.wav",
+      "start_ms": 6000,
+      "end_ms": 9336,
+      "duration_ms": 3336,
+      "provider": "edge_tts"
+    }
+  ],
+  "scene_tracks": [
+    {
+      "scene_id": "scene_001",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\scenes\\scene_001_mix.wav",
+      "duration_seconds": 11.74798185941043
+    },
+    {
+      "scene_id": "scene_002",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\scenes\\scene_002_mix.wav",
+      "duration_seconds": 9.38
+    },
+    {
+      "scene_id": "scene_003",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\scenes\\scene_003_mix.wav",
+      "duration_seconds": 9.835963718820862
+    }
+  ],
+  "bgm_tracks": [
+    {
+      "scene_id": "scene_001",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\bgm\\scene_001_bgm.wav",
+      "duration_seconds": 11.748,
+      "mood": "hopeful",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_002",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\bgm\\scene_002_bgm.wav",
+      "duration_seconds": 9.38,
+      "mood": "mysterious",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_003",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\bgm\\scene_003_bgm.wav",
+      "duration_seconds": 9.836,
+      "mood": "majestic",
+      "provider": "offline_procedural_bgm"
+    }
+  ],
+  "full_audio": {
+    "audio_file": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\full_audio.wav",
+    "duration_seconds": 30.963945578231293
+  },
+  "total_segments": 6,
+  "total_duration_ms": 30963
+}

@@ -1,0 +1,81 @@
+{
+  "characters": [
+    {
+      "character_id": "char_001",
+      "name": "Alex",
+      "role": "protagonist",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "appearance": {
+        "physical_description": "A young astronaut with short dark hair, slim build, and curious eyes.",
+        "clothing": "Wearing a sleek, futuristic blue and white spacesuit with mission insignia patches.",
+        "distinctive_features": "Always seen with a digital wrist device.",
+        "color_palette": [
+          "#0000FF",
+          "#FFFFFF",
+          "#000000"
+        ],
+        "art_style_prompt": "young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes"
+      },
+      "personality_traits": [
+        "curious",
+        "optimistic",
+        "determined",
+        "contemplative"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_002",
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ],
+      "background": "Driven by the desire to explore and discover the unknown, Alex values knowledge and the potential for new beginnings."
+    },
+    {
+      "character_id": "char_002",
+      "name": "Mission Control",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "adult",
+        "tone": "calm and authoritative",
+        "speed": 0.9,
+        "emotion_baseline": "reassuring",
+        "accent": "british",
+        "tts_style_tags": [
+          "guiding",
+          "steady"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Not applicable (voice-over character).",
+        "clothing": "n/a",
+        "distinctive_features": "n/a",
+        "color_palette": [],
+        "art_style_prompt": "n/a"
+      },
+      "personality_traits": [
+        "steady",
+        "reassuring",
+        "supportive"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_005"
+      ],
+      "background": "The voice of Mission Control provides guidance and support to Alex, representing the connection to Earth and the broader mission."
+    }
+  ],
+  "global_art_style": "3D Pixar-style CGI"
+}

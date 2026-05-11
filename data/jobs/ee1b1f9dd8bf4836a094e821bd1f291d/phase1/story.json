@@ -1,0 +1,86 @@
+{
+  "title": "The Glowing Ocean of Mars",
+  "genre": "Sci-Fi Adventure",
+  "themes": [
+    "exploration",
+    "discovery",
+    "hope"
+  ],
+  "arc": [
+    "intro",
+    "rising_action",
+    "climax",
+    "falling_action",
+    "resolution"
+  ],
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "title": "Mars Base",
+      "setting": "Inside a futuristic Martian base, filled with advanced technology. The red Martian landscape can be seen through large windows.",
+      "tone": "Hopeful and curious",
+      "arc_position": "intro",
+      "summary": "The protagonist, a young and hopeful astronaut named Elara, gazes out at the vast Martian desert. She is reviewing satellite images on a holographic screen that hint at something unusual beneath the planet’s surface.",
+      "estimated_duration_seconds": 32,
+      "themes": [
+        "exploration",
+        "curiosity"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "title": "Martian Surface",
+      "setting": "The barren, red terrain of Mars. Dust storms occasionally sweep across the landscape.",
+      "tone": "Adventurous and determined",
+      "arc_position": "rising_action",
+      "summary": "Elara suits up and embarks on a rover expedition to the coordinates of the anomaly. The journey is filled with challenges as the rover maneuvers through rocky terrain.",
+      "estimated_duration_seconds": 32,
+      "themes": [
+        "adventure",
+        "determination"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "title": "Discovery of the Glowing Ocean",
+      "setting": "A hidden cave beneath the surface, illuminated by a mesmerizing, glowing ocean.",
+      "tone": "Awe and wonder",
+      "arc_position": "climax",
+      "summary": "Elara descends into the cave, her flashlight revealing an underground ocean that glows with an ethereal light. The water is teeming with bioluminescent life forms, casting a vibrant glow throughout the cavern.",
+      "estimated_duration_seconds": 32,
+      "themes": [
+        "discovery",
+        "wonder"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "title": "The Return",
+      "setting": "The ascent back to the Martian base, under the vast, starry sky.",
+      "tone": "Reflective and joyous",
+      "arc_position": "falling_action",
+      "summary": "Elara returns to her rover with samples, feeling a deep sense of accomplishment and wonder. She records a message back to Earth, sharing the monumental discovery.",
+      "estimated_duration_seconds": 32,
+      "themes": [
+        "reflection",
+        "joy"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "title": "Back at the Base",
+      "setting": "The Martian base, now filled with activity as the team celebrates the discovery.",
+      "tone": "Inspirational and uplifting",
+      "arc_position": "resolution",
+      "summary": "Elara celebrates with her team, their faces lit by the glow of the holographic display showing the cave's images. Plans for future exploration are discussed with excitement.",
+      "estimated_duration_seconds": 32,
+      "themes": [
+        "inspiration",
+        "future exploration"
+      ]
+    }
+  ],
+  "total_estimated_duration_seconds": 160,
+  "premise": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+  "setting_description": "A futuristic Martian base and the barren, red terrain of Mars, including a hidden cave with a glowing ocean."
+}

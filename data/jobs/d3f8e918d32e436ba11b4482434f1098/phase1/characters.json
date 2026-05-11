@@ -1,0 +1,80 @@
+{
+  "characters": [
+    {
+      "character_id": "char_001",
+      "name": "Alex the Astronaut",
+      "role": "protagonist",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Young astronaut with short brown hair, bright eyes full of curiosity.",
+        "clothing": "Sleek silver space suit with patches of exploration missions.",
+        "distinctive_features": "Reflective helmet, determined yet gentle expression.",
+        "color_palette": [
+          "#C0C0C0",
+          "#8B4513",
+          "#FFFFFF"
+        ],
+        "art_style_prompt": "young astronaut with short brown hair, wearing a sleek silver space suit, determined expression"
+      },
+      "personality_traits": [
+        "curious",
+        "introspective",
+        "hopeful",
+        "driven"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_002",
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ],
+      "background": "Alex is an astronaut on a mission to explore Mars, driven by a deep sense of wonder and a relentless pursuit of discovery."
+    },
+    {
+      "character_id": "char_002",
+      "name": "Mission Control Voice",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "adult",
+        "tone": "calm",
+        "speed": 1.0,
+        "emotion_baseline": "supportive",
+        "accent": "british",
+        "tts_style_tags": [
+          "authoritative",
+          "supportive"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Not visually present.",
+        "clothing": "N/A",
+        "distinctive_features": "N/A",
+        "color_palette": [],
+        "art_style_prompt": "N/A"
+      },
+      "personality_traits": [
+        "supportive",
+        "authoritative"
+      ],
+      "scenes_appearing_in": [
+        "scene_002",
+        "scene_004"
+      ],
+      "background": "Represents Earth-based mission control communication, providing guidance and support to Alex."
+    }
+  ],
+  "global_art_style": "Studio Ghibli-style watercolour anime"
+}

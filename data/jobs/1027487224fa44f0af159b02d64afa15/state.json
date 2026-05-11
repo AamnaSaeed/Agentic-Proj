@@ -1,0 +1,19 @@
+{
+  "job_id": "1027487224fa44f0af159b02d64afa15",
+  "prompt": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+  "status": "failed",
+  "current_phase": null,
+  "phases": {
+    "1": "running",
+    "2": "pending",
+    "3": "pending"
+  },
+  "progress": 10,
+  "message": "story_agent error: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.",
+  "errors": [
+    "story_agent error: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable."
+  ],
+  "outputs": {},
+  "created_at": "2026-05-07T05:10:58Z",
+  "updated_at": "2026-05-07T05:11:02Z"
+}

@@ -1,0 +1,76 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "visual_prompt": "3D Pixar-style CGI, A futuristic Mars base with red rocky terrains visible through the windows. The interior is filled with advanced technology and bustling scientists., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Dr. Elena Carter (middle-aged woman with silver-streaked black hair, wearing a lab coat over a casual turtleneck, glasses perched on her nose, with a thoughtful expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_left",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 20,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "visual_prompt": "3D Pixar-style CGI, The barren, dusty surface of Mars, under a brilliant sky filled with stars., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Rover AI (sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "cut",
+      "transition_out": "cut",
+      "duration_seconds": 17,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_003"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "visual_prompt": "3D Pixar-style CGI, An underground cave, revealed after a dramatic landslide. Inside, the walls glisten with crystalline deposits, and in the center lies a vast, glowing ocean, shimmering in shades of turquoise and green., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Rover AI (sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "duration_seconds": 15,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_003"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "visual_prompt": "3D Pixar-style CGI, Back in the rover, now heading towards the base, the sky beginning to darken with the Martian dusk., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Rover AI (sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "cut",
+      "transition_out": "cut",
+      "duration_seconds": 18,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002",
+        "char_003"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "visual_prompt": "3D Pixar-style CGI, The Mars base, now bustling with activity, as scientists prepare for a new expedition to the glowing ocean., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Dr. Elena Carter (middle-aged woman with silver-streaked black hair, wearing a lab coat over a casual turtleneck, glasses perched on her nose, with a thoughtful expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_right",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 18,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    }
+  ],
+  "character_appearance_prompts": {
+    "char_001": "young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination",
+    "char_002": "middle-aged woman with silver-streaked black hair, wearing a lab coat over a casual turtleneck, glasses perched on her nose, with a thoughtful expression",
+    "char_003": "sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency"
+  },
+  "global_art_style": "3D Pixar-style CGI"
+}

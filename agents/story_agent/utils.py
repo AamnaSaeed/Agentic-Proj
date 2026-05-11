@@ -5,9 +5,10 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 from typing import Any, List
 
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_openai import ChatOpenAI
 from langchain_core.messages import AIMessage, ToolMessage
 from langchain_core.tools import BaseTool
 
@@ -66,8 +67,7 @@ def run_tool_loop(
     return messages
 
 
-def get_llm(temperature: float = 0.7) -> ChatGoogleGenerativeAI:
-    """Returns a configured ChatGoogleGenerativeAI instance, reading model from env."""
-    import os
-    model = os.environ.get("PHASE1_MODEL", "gemini-1.5-flash")
-    return ChatGoogleGenerativeAI(model=model, temperature=temperature)
+def get_llm(temperature: float = 0.7) -> ChatOpenAI:
+    """Returns an OpenAI LLM instance for all Phase 1 nodes."""
+    model = os.environ.get("PHASE1_MODEL", "gpt-4o")
+    return ChatOpenAI(model=model, temperature=temperature)

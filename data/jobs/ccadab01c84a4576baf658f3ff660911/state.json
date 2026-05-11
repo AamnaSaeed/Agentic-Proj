@@ -1,0 +1,400 @@
+{
+  "job_id": "ccadab01c84a4576baf658f3ff660911",
+  "prompt": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+  "status": "running",
+  "current_phase": 3,
+  "phases": {
+    "1": "completed",
+    "2": "completed",
+    "3": "running"
+  },
+  "progress": 75,
+  "message": "Phase 3: Video running",
+  "errors": [],
+  "outputs": {
+    "phase1": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase1",
+      "artifacts": {
+        "story": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase1\\story.json",
+        "characters": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase1\\characters.json",
+        "script": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase1\\script.json",
+        "phase2_audio_handoff": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase1\\phase2_audio_handoff.json",
+        "phase3_video_handoff": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase1\\phase3_video_handoff.json",
+        "summary": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase1\\summary.json"
+      },
+      "story": {
+        "title": "A Hopeful Astronaut Discovers a Glowing Ocean Beneath Mars",
+        "genre": "Sci-Fi",
+        "themes": [
+          "discovery",
+          "hope",
+          "exploration"
+        ],
+        "arc": [
+          "intro",
+          "rising_action",
+          "climax",
+          "falling_action",
+          "resolution"
+        ],
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "title": "Introduction",
+            "setting": "The barren, rusty surface of Mars. Dust storms occasionally sweep across the landscape.",
+            "tone": "Hopeful and determined",
+            "arc_position": "intro",
+            "summary": "We meet our protagonist, an astronaut named Alex, as they step out of their spacecraft. Alex gazes across the desolate Martian landscape with a hopeful glint in their eyes. They are on a mission to uncover the secrets of Mars.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "hope",
+              "exploration"
+            ]
+          },
+          {
+            "scene_id": "scene_002",
+            "title": "Rising Action",
+            "setting": "Mars’ rocky terrain, leading to a cliffside.",
+            "tone": "Curious and adventurous",
+            "arc_position": "rising_action",
+            "summary": "Alex treks across the rocky terrain, using their instruments to scan the ground below. Their readings indicate something unusual beneath the surface. The anticipation builds as they approach the edge of a large cliff.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "curiosity",
+              "adventure"
+            ]
+          },
+          {
+            "scene_id": "scene_003",
+            "title": "Climax",
+            "setting": "The edge of a massive crater on Mars.",
+            "tone": "Awe and wonder",
+            "arc_position": "climax",
+            "summary": "Peering over the edge, Alex discovers a breathtaking sight—a vast ocean shimmering with an ethereal glow beneath Mars’ surface. The water reflects vibrant colors, unlike anything seen on Earth. Alex’s eyes widen in disbelief and joy as they record their findings.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "discovery",
+              "wonder"
+            ]
+          },
+          {
+            "scene_id": "scene_004",
+            "title": "Falling Action",
+            "setting": "The glowing ocean beneath the surface.",
+            "tone": "Reflective and inspired",
+            "arc_position": "falling_action",
+            "summary": "Using a drone, Alex captures footage of the glowing ocean, revealing strange marine creatures swimming gracefully. This discovery suggests the potential for life and new possibilities for humanity. Alex feels a profound connection to the universe.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "reflection",
+              "inspiration"
+            ]
+          },
+          {
+            "scene_id": "scene_005",
+            "title": "Resolution",
+            "setting": "Inside the spacecraft, preparing to return home.",
+            "tone": "Fulfilled and hopeful",
+            "arc_position": "resolution",
+            "summary": "Back in their spacecraft, Alex sends the data to Earth. They watch the glowing ocean one last time from a monitor, feeling a renewed sense of purpose. As the spacecraft lifts off, Alex smiles, knowing their discovery will inspire generations to come.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "fulfillment",
+              "hope"
+            ]
+          }
+        ],
+        "total_estimated_duration_seconds": 160,
+        "premise": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+        "setting_description": "The story is set on Mars, featuring its barren, rusty surface, rocky terrains, and a hidden glowing ocean beneath the surface, suggesting the potential for life."
+      },
+      "characters": {
+        "characters": [
+          {
+            "character_id": "char_001",
+            "name": "Alex",
+            "role": "protagonist",
+            "voice_config": {
+              "gender": "neutral",
+              "age_range": "young_adult",
+              "tone": "hopeful",
+              "speed": 1.0,
+              "emotion_baseline": "optimistic",
+              "accent": "mid-atlantic",
+              "tts_style_tags": [
+                "neutral",
+                "optimistic",
+                "youthful"
+              ]
+            },
+            "appearance": {
+              "physical_description": "young astronaut with short brown hair",
+              "clothing": "wearing a sleek white and silver space suit",
+              "distinctive_features": "hopeful and determined expression",
+              "color_palette": [
+                "#FFFFFF",
+                "#C0C0C0",
+                "#8B4513"
+              ],
+              "art_style_prompt": "young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression"
+            },
+            "personality_traits": [
+              "curious",
+              "adventurous",
+              "hopeful"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_002",
+              "scene_003",
+              "scene_004",
+              "scene_005"
+            ],
+            "background": "Alex is on a mission to uncover the secrets of Mars, driven by a passion for exploration and discovery."
+          },
+          {
+            "character_id": "char_002",
+            "name": "Mission Control Voice",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "female",
+              "age_range": "adult",
+              "tone": "calm",
+              "speed": 1.0,
+              "emotion_baseline": "supportive",
+              "accent": "american",
+              "tts_style_tags": [
+                "calm",
+                "authoritative",
+                "mature"
+              ]
+            },
+            "appearance": {
+              "physical_description": "Not visually depicted",
+              "clothing": "N/A",
+              "distinctive_features": "N/A",
+              "color_palette": [],
+              "art_style_prompt": "N/A"
+            },
+            "personality_traits": [
+              "supportive",
+              "knowledgeable",
+              "encouraging"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_005"
+            ],
+            "background": "The voice of Mission Control provides guidance and support to Alex from Earth."
+          },
+          {
+            "character_id": "char_003",
+            "name": "Martian Marine Creature",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "neutral",
+              "age_range": "child",
+              "tone": "N/A",
+              "speed": 1.0,
+              "emotion_baseline": "N/A",
+              "accent": "N/A",
+              "tts_style_tags": [
+                "ambient",
+                "mysterious",
+                "alien"
+              ]
+            },
+            "appearance": {
+              "physical_description": "luminescent sea creature with transparent fins",
+              "clothing": "N/A",
+              "distinctive_features": "glowing, color-changing body",
+              "color_palette": [
+                "#00FFFF",
+                "#FF69B4",
+                "#8A2BE2"
+              ],
+              "art_style_prompt": "luminescent sea creature with transparent fins and a glowing, color-changing body"
+            },
+            "personality_traits": [
+              "mysterious",
+              "graceful",
+              "awe-inspiring"
+            ],
+            "scenes_appearing_in": [
+              "scene_004"
+            ],
+            "background": "A mysterious creature living in the glowing ocean beneath Mars, symbolizing the unknown wonders of the universe."
+          }
+        ],
+        "global_art_style": "Studio Ghibli-style watercolour anime"
+      },
+      "script": {
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Mars, here I am. Let's uncover your secrets.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "Mission Control, scenery looks just like the simulations.",
+                "emotion": "sad",
+                "timing_offset_seconds": 5.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_003",
+                "character_id": "char_002",
+                "text": "Affirmative, Alex. Keep us updated.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 10.0,
+                "duration_hint_seconds": 4.0
+              }
+            ],
+            "visual_prompt": "Studio Ghibli-style watercolour anime, The barren, rusty surface of Mars. Dust storms occasionally sweep across the landscape., Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "zoom_in",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "inspirational",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          },
+          {
+            "scene_id": "scene_002",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "The readings are off the charts. Something's definitely here.",
+                "emotion": "curious",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "Approaching the cliff now. Let's see what's below.",
+                "emotion": "adventurous",
+                "timing_offset_seconds": 5.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "Studio Ghibli-style watercolour anime, Mars’ rocky terrain leading to a cliffside, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, dynamic shot showing the vastness of the terrain",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "pan_right",
+            "transition_in": "cut",
+            "transition_out": "dissolve",
+            "background_music_mood": "adventurous",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          },
+          {
+            "scene_id": "scene_003",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Incredible... an ocean beneath the surface!",
+                "emotion": "awe",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "It's glowing with colors I've never seen before.",
+                "emotion": "wonder",
+                "timing_offset_seconds": 5.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "Studio Ghibli-style watercolour anime, The edge of a massive crater on Mars, revealing a vast ocean shimmering with an ethereal glow beneath the surface, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), vibrant colors reflecting off the water, natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, awe-inspiring wide shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "static",
+            "transition_in": "dissolve",
+            "transition_out": "cut",
+            "background_music_mood": "awe-inspiring",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          },
+          {
+            "scene_id": "scene_004",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "The drone's capturing everything. Look at those creatures!",
+                "emotion": "inspired",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "This changes everything we know about life.",
+                "emotion": "reflective",
+                "timing_offset_seconds": 5.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "Studio Ghibli-style watercolour anime, The glowing ocean beneath the surface, with strange marine creatures swimming gracefully, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), luminescent sea creatures with transparent fins and a glowing, color-changing body, natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, underwater shot with a sense of wonder",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "ken_burns",
+            "transition_in": "cut",
+            "transition_out": "fade_out",
+            "background_music_mood": "reflective",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          },
+          {
+            "scene_id": "scene_005",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Data sent. This discovery will inspire generations.",
+                "emotion": "hopeful",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "Goodbye, Mars. Until next time.",
+                "emotion": "fulfilled",
+                "timing_offset_seconds": 5.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "Studio Ghibli-style watercolour anime, Inside the spacecraft, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression) preparing to return home, viewing the glowing ocean on a monitor, natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, intimate interior shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "zoom_out",
+            "transition_in": "fade_in",
+            "transition_out": "cut",
+            "background_music_mood": "hopeful",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          }
+        ]
+      }
+    },
+    "phase2": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase2",
+      "timing_manifest": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase2\\timing_manifest.json",
+      "full_audio": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase2\\full_audio.wav",
+      "summary": "D:\\agentic project\\data\\jobs\\ccadab01c84a4576baf658f3ff660911\\phase2\\summary.json",
+      "scene_count": 5,
+      "segment_count": 11
+    }
+  },
+  "created_at": "2026-05-07T06:17:48Z",
+  "updated_at": "2026-05-07T06:19:25Z"
+}

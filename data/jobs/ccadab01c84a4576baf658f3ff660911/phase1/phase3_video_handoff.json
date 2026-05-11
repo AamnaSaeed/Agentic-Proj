@@ -1,0 +1,73 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, The barren, rusty surface of Mars. Dust storms occasionally sweep across the landscape., Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, Mars’ rocky terrain leading to a cliffside, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, dynamic shot showing the vastness of the terrain",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_right",
+      "transition_in": "cut",
+      "transition_out": "dissolve",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, The edge of a massive crater on Mars, revealing a vast ocean shimmering with an ethereal glow beneath the surface, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), vibrant colors reflecting off the water, natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, awe-inspiring wide shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "dissolve",
+      "transition_out": "cut",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, The glowing ocean beneath the surface, with strange marine creatures swimming gracefully, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression), luminescent sea creatures with transparent fins and a glowing, color-changing body, natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, underwater shot with a sense of wonder",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "ken_burns",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_003"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, Inside the spacecraft, Alex (young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression) preparing to return home, viewing the glowing ocean on a monitor, natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, intimate interior shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_out",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    }
+  ],
+  "character_appearance_prompts": {
+    "char_001": "young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression",
+    "char_002": "N/A",
+    "char_003": "luminescent sea creature with transparent fins and a glowing, color-changing body"
+  },
+  "global_art_style": "Studio Ghibli-style watercolour anime"
+}

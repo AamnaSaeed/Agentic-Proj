@@ -1,0 +1,377 @@
+{
+  "job_id": "1296f95e620840cdbac8494c836d128a",
+  "prompt": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+  "status": "completed",
+  "current_phase": null,
+  "phases": {
+    "1": "completed",
+    "2": "completed",
+    "3": "completed"
+  },
+  "progress": 100,
+  "message": "Pipeline completed",
+  "errors": [],
+  "outputs": {
+    "phase1": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase1",
+      "artifacts": {
+        "story": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase1\\story.json",
+        "characters": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase1\\characters.json",
+        "script": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase1\\script.json",
+        "phase2_audio_handoff": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase1\\phase2_audio_handoff.json",
+        "phase3_video_handoff": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase1\\phase3_video_handoff.json",
+        "summary": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase1\\summary.json"
+      },
+      "story": {
+        "title": "The Hidden Ocean",
+        "genre": "Sci-Fi",
+        "themes": [
+          "exploration",
+          "discovery",
+          "hope"
+        ],
+        "arc": [
+          "intro",
+          "rising_action",
+          "climax",
+          "falling_action",
+          "resolution"
+        ],
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "title": "Mars Surface",
+            "setting": "A desolate, dusty Martian landscape bathed in the eerie glow of a distant sun.",
+            "tone": "hopeful anticipation",
+            "arc_position": "intro",
+            "summary": "An astronaut, clunky in a white spacesuit, stands on the barren surface of Mars. She gazes at the horizon, where the sun is setting. Her mission: explore the unexplored. She checks her equipment and takes her first steps, leaving footprints in the red dust.",
+            "estimated_duration_seconds": 25,
+            "themes": [
+              "exploration",
+              "hope"
+            ]
+          },
+          {
+            "scene_id": "scene_002",
+            "title": "Underground Cavern Entrance",
+            "setting": "The mouth of a hidden cavern, partially covered by rocks.",
+            "tone": "curiosity and determination",
+            "arc_position": "rising_action",
+            "summary": "The astronaut discovers a small opening in the ground, partially concealed by Martian rock formations. She kneels down, brushes away the dust, and peers into the darkness. Her suit's lights flicker on, illuminating the entrance of the cavern. With a deep breath, she decides to venture inside, driven by an unshakable curiosity.",
+            "estimated_duration_seconds": 25,
+            "themes": [
+              "discovery",
+              "curiosity"
+            ]
+          },
+          {
+            "scene_id": "scene_003",
+            "title": "Glowing Ocean Beneath Mars",
+            "setting": "A vast subterranean ocean, glowing with an ethereal blue light.",
+            "tone": "awe and wonder",
+            "arc_position": "climax",
+            "summary": "The astronaut emerges into a massive underground chamber. Before her lies an ocean, its waters shimmering with a mystical glow. Bioluminescent creatures swim beneath the surface, casting intricate patterns on the cavern walls. She stands mesmerized, captivated by the beauty of this hidden world.",
+            "estimated_duration_seconds": 25,
+            "themes": [
+              "discovery",
+              "wonder"
+            ]
+          },
+          {
+            "scene_id": "scene_004",
+            "title": "Ocean's Edge",
+            "setting": "The shore of the glowing ocean.",
+            "tone": "reflective and inspired",
+            "arc_position": "falling_action",
+            "summary": "The astronaut kneels by the ocean's edge, dipping her hand into the cool, glowing water. She watches the ripples spread, thinking about the significance of her discovery. Her heart swells with the realization of the endless possibilities this ocean represents for life beyond Earth.",
+            "estimated_duration_seconds": 25,
+            "themes": [
+              "reflection",
+              "inspiration"
+            ]
+          },
+          {
+            "scene_id": "scene_005",
+            "title": "Mars Surface at Dawn",
+            "setting": "The Martian surface, now under a rising sun.",
+            "tone": "hopefulness and resolve",
+            "arc_position": "resolution",
+            "summary": "The astronaut ascends back to the surface as dawn breaks. She stands at the edge of the cavern, looking out over the Martian landscape. With a renewed sense of hope, she signals back to her base, ready to share her incredible discovery with the world.",
+            "estimated_duration_seconds": 25,
+            "themes": [
+              "hope",
+              "resolution"
+            ]
+          }
+        ],
+        "total_estimated_duration_seconds": 125,
+        "premise": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+        "setting_description": "A visually stunning Martian landscape with a hidden, glowing ocean beneath its surface, filled with bioluminescent life."
+      },
+      "characters": {
+        "characters": [
+          {
+            "character_id": "char_001",
+            "name": "Commander Aurora Lee",
+            "role": "protagonist",
+            "voice_config": {
+              "gender": "female",
+              "age_range": "young_adult",
+              "tone": "assertive",
+              "speed": 1.0,
+              "emotion_baseline": "determined",
+              "accent": "american",
+              "tts_style_tags": [
+                "strong",
+                "clear",
+                "purposeful"
+              ]
+            },
+            "appearance": {
+              "physical_description": "young woman with red curly hair",
+              "clothing": "white astronaut suit with a reflective visor",
+              "distinctive_features": "determined expression",
+              "color_palette": [
+                "#FFFFFF",
+                "#FF4500",
+                "#FFD700"
+              ],
+              "art_style_prompt": "young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression"
+            },
+            "personality_traits": [
+              "courageous",
+              "intelligent",
+              "curious",
+              "pragmatic"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_002",
+              "scene_003",
+              "scene_004",
+              "scene_005"
+            ],
+            "background": "Aurora is a seasoned astronaut leading a mission to explore Mars. Her passion for discovery drives her to uncover the planet's secrets."
+          },
+          {
+            "character_id": "char_002",
+            "name": "Dr. Ethan Ramirez",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "male",
+              "age_range": "adult",
+              "tone": "thoughtful",
+              "speed": 0.9,
+              "emotion_baseline": "curious",
+              "accent": "british",
+              "tts_style_tags": [
+                "intelligent",
+                "reflective",
+                "calm"
+              ]
+            },
+            "appearance": {
+              "physical_description": "middle-aged man with short black hair",
+              "clothing": "scientist’s lab coat",
+              "distinctive_features": "analytical expression",
+              "color_palette": [
+                "#000000",
+                "#FFFFFF",
+                "#808080"
+              ],
+              "art_style_prompt": "middle-aged man with short black hair, wearing a scientist’s lab coat, analytical expression"
+            },
+            "personality_traits": [
+              "methodical",
+              "patient",
+              "knowledgeable",
+              "supportive"
+            ],
+            "scenes_appearing_in": [
+              "scene_005"
+            ],
+            "background": "Ethan is a geologist and scientist who provides remote support to Aurora, offering insights into the Martian terrain."
+          },
+          {
+            "character_id": "char_003",
+            "name": "Bioluminescent Creatures",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "neutral",
+              "age_range": "adult",
+              "tone": "mystical",
+              "speed": 1.0,
+              "emotion_baseline": "serene",
+              "accent": "neutral",
+              "tts_style_tags": [
+                "mysterious",
+                "ambient",
+                "otherworldly"
+              ]
+            },
+            "appearance": {
+              "physical_description": "ethereal aquatic creatures with glowing patterns",
+              "clothing": "N/A",
+              "distinctive_features": "diverse shapes and sizes, peaceful presence",
+              "color_palette": [
+                "#00FFFF",
+                "#0000FF",
+                "#FFFFFF"
+              ],
+              "art_style_prompt": "ethereal aquatic creatures with glowing patterns, diverse shapes and sizes, peaceful presence"
+            },
+            "personality_traits": [
+              "curious",
+              "gentle",
+              "mysterious"
+            ],
+            "scenes_appearing_in": [
+              "scene_003",
+              "scene_004"
+            ],
+            "background": "These creatures inhabit the hidden ocean beneath Mars, adding to the wonder and mystery of the subterranean world."
+          }
+        ],
+        "global_art_style": "3D Pixar-style CGI"
+      },
+      "script": {
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "The horizon seems endless, yet here I am, ready to uncover its secrets.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 1.0,
+                "duration_hint_seconds": 6.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "Equipment's all set. Let's make history.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 7.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, A desolate, dusty Martian landscape bathed in the eerie glow of a distant sun., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "zoom_in",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "hopeful",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 25
+          },
+          {
+            "scene_id": "scene_002",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "A hidden path... let's see where you lead.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 1.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "Time to uncover the mysteries beneath.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 6.0,
+                "duration_hint_seconds": 4.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, The mouth of a hidden cavern, partially covered by rocks., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "pan_left",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "mysterious",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 25
+          },
+          {
+            "scene_id": "scene_003",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Incredible... it's like an alien paradise.",
+                "emotion": "excited",
+                "timing_offset_seconds": 1.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "This changes everything we know about Mars.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 6.0,
+                "duration_hint_seconds": 4.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, A vast subterranean ocean, glowing with an ethereal blue light., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), Bioluminescent Creatures (ethereal aquatic creatures with glowing patterns, diverse shapes and sizes, peaceful presence), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "ken_burns",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "majestic",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 25
+          },
+          {
+            "scene_id": "scene_004",
+            "dialogue": [],
+            "visual_prompt": "3D Pixar-style CGI, The shore of the glowing ocean., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "static",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "reflective",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 25
+          },
+          {
+            "scene_id": "scene_005",
+            "dialogue": [],
+            "visual_prompt": "3D Pixar-style CGI, The Martian surface, now under a rising sun., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), Dr. Ethan Ramirez (middle-aged man with short black hair, wearing a scientist’s lab coat, analytical expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "zoom_out",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "hopeful",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 25
+          }
+        ]
+      }
+    },
+    "phase2": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2",
+      "timing_manifest": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\timing_manifest.json",
+      "full_audio": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\full_audio.wav",
+      "summary": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase2\\summary.json",
+      "scene_count": 3,
+      "segment_count": 6
+    },
+    "phase3": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase3",
+      "final_video": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase3\\final_output.mp4",
+      "subtitles": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase3\\subtitles.srt",
+      "summary": "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase3\\summary.json",
+      "scene_clips": [
+        "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase3\\scenes\\scene_001_final.mp4",
+        "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase3\\scenes\\scene_002_final.mp4",
+        "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase3\\scenes\\scene_003_final.mp4",
+        "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase3\\scenes\\scene_004_final.mp4",
+        "D:\\agentic project\\data\\jobs\\1296f95e620840cdbac8494c836d128a\\phase3\\scenes\\scene_005_final.mp4"
+      ]
+    }
+  },
+  "created_at": "2026-05-08T06:08:09Z",
+  "updated_at": "2026-05-08T06:39:29Z"
+}

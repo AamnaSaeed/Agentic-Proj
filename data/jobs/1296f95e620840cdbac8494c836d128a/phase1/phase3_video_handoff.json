@@ -1,0 +1,73 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "visual_prompt": "3D Pixar-style CGI, A desolate, dusty Martian landscape bathed in the eerie glow of a distant sun., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "visual_prompt": "3D Pixar-style CGI, The mouth of a hidden cavern, partially covered by rocks., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_left",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "visual_prompt": "3D Pixar-style CGI, A vast subterranean ocean, glowing with an ethereal blue light., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), Bioluminescent Creatures (ethereal aquatic creatures with glowing patterns, diverse shapes and sizes, peaceful presence), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "ken_burns",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_003"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "visual_prompt": "3D Pixar-style CGI, The shore of the glowing ocean., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_003"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "visual_prompt": "3D Pixar-style CGI, The Martian surface, now under a rising sun., Commander Aurora Lee (young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression), Dr. Ethan Ramirez (middle-aged man with short black hair, wearing a scientist’s lab coat, analytical expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_out",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 25,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    }
+  ],
+  "character_appearance_prompts": {
+    "char_001": "young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression",
+    "char_002": "middle-aged man with short black hair, wearing a scientist’s lab coat, analytical expression",
+    "char_003": "ethereal aquatic creatures with glowing patterns, diverse shapes and sizes, peaceful presence"
+  },
+  "global_art_style": "3D Pixar-style CGI"
+}

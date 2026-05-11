@@ -1,0 +1,126 @@
+{
+  "characters": [
+    {
+      "character_id": "char_001",
+      "name": "Commander Aurora Lee",
+      "role": "protagonist",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "assertive",
+        "speed": 1.0,
+        "emotion_baseline": "determined",
+        "accent": "american",
+        "tts_style_tags": [
+          "strong",
+          "clear",
+          "purposeful"
+        ]
+      },
+      "appearance": {
+        "physical_description": "young woman with red curly hair",
+        "clothing": "white astronaut suit with a reflective visor",
+        "distinctive_features": "determined expression",
+        "color_palette": [
+          "#FFFFFF",
+          "#FF4500",
+          "#FFD700"
+        ],
+        "art_style_prompt": "young woman with red curly hair, wearing a white astronaut suit with a reflective visor, determined expression"
+      },
+      "personality_traits": [
+        "courageous",
+        "intelligent",
+        "curious",
+        "pragmatic"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_002",
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ],
+      "background": "Aurora is a seasoned astronaut leading a mission to explore Mars. Her passion for discovery drives her to uncover the planet's secrets."
+    },
+    {
+      "character_id": "char_002",
+      "name": "Dr. Ethan Ramirez",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "adult",
+        "tone": "thoughtful",
+        "speed": 0.9,
+        "emotion_baseline": "curious",
+        "accent": "british",
+        "tts_style_tags": [
+          "intelligent",
+          "reflective",
+          "calm"
+        ]
+      },
+      "appearance": {
+        "physical_description": "middle-aged man with short black hair",
+        "clothing": "scientist’s lab coat",
+        "distinctive_features": "analytical expression",
+        "color_palette": [
+          "#000000",
+          "#FFFFFF",
+          "#808080"
+        ],
+        "art_style_prompt": "middle-aged man with short black hair, wearing a scientist’s lab coat, analytical expression"
+      },
+      "personality_traits": [
+        "methodical",
+        "patient",
+        "knowledgeable",
+        "supportive"
+      ],
+      "scenes_appearing_in": [
+        "scene_005"
+      ],
+      "background": "Ethan is a geologist and scientist who provides remote support to Aurora, offering insights into the Martian terrain."
+    },
+    {
+      "character_id": "char_003",
+      "name": "Bioluminescent Creatures",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "adult",
+        "tone": "mystical",
+        "speed": 1.0,
+        "emotion_baseline": "serene",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "mysterious",
+          "ambient",
+          "otherworldly"
+        ]
+      },
+      "appearance": {
+        "physical_description": "ethereal aquatic creatures with glowing patterns",
+        "clothing": "N/A",
+        "distinctive_features": "diverse shapes and sizes, peaceful presence",
+        "color_palette": [
+          "#00FFFF",
+          "#0000FF",
+          "#FFFFFF"
+        ],
+        "art_style_prompt": "ethereal aquatic creatures with glowing patterns, diverse shapes and sizes, peaceful presence"
+      },
+      "personality_traits": [
+        "curious",
+        "gentle",
+        "mysterious"
+      ],
+      "scenes_appearing_in": [
+        "scene_003",
+        "scene_004"
+      ],
+      "background": "These creatures inhabit the hidden ocean beneath Mars, adding to the wonder and mystery of the subterranean world."
+    }
+  ],
+  "global_art_style": "3D Pixar-style CGI"
+}

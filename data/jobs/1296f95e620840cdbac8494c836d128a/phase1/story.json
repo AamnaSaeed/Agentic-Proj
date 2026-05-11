@@ -1,0 +1,86 @@
+{
+  "title": "The Hidden Ocean",
+  "genre": "Sci-Fi",
+  "themes": [
+    "exploration",
+    "discovery",
+    "hope"
+  ],
+  "arc": [
+    "intro",
+    "rising_action",
+    "climax",
+    "falling_action",
+    "resolution"
+  ],
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "title": "Mars Surface",
+      "setting": "A desolate, dusty Martian landscape bathed in the eerie glow of a distant sun.",
+      "tone": "hopeful anticipation",
+      "arc_position": "intro",
+      "summary": "An astronaut, clunky in a white spacesuit, stands on the barren surface of Mars. She gazes at the horizon, where the sun is setting. Her mission: explore the unexplored. She checks her equipment and takes her first steps, leaving footprints in the red dust.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "exploration",
+        "hope"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "title": "Underground Cavern Entrance",
+      "setting": "The mouth of a hidden cavern, partially covered by rocks.",
+      "tone": "curiosity and determination",
+      "arc_position": "rising_action",
+      "summary": "The astronaut discovers a small opening in the ground, partially concealed by Martian rock formations. She kneels down, brushes away the dust, and peers into the darkness. Her suit's lights flicker on, illuminating the entrance of the cavern. With a deep breath, she decides to venture inside, driven by an unshakable curiosity.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "discovery",
+        "curiosity"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "title": "Glowing Ocean Beneath Mars",
+      "setting": "A vast subterranean ocean, glowing with an ethereal blue light.",
+      "tone": "awe and wonder",
+      "arc_position": "climax",
+      "summary": "The astronaut emerges into a massive underground chamber. Before her lies an ocean, its waters shimmering with a mystical glow. Bioluminescent creatures swim beneath the surface, casting intricate patterns on the cavern walls. She stands mesmerized, captivated by the beauty of this hidden world.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "discovery",
+        "wonder"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "title": "Ocean's Edge",
+      "setting": "The shore of the glowing ocean.",
+      "tone": "reflective and inspired",
+      "arc_position": "falling_action",
+      "summary": "The astronaut kneels by the ocean's edge, dipping her hand into the cool, glowing water. She watches the ripples spread, thinking about the significance of her discovery. Her heart swells with the realization of the endless possibilities this ocean represents for life beyond Earth.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "reflection",
+        "inspiration"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "title": "Mars Surface at Dawn",
+      "setting": "The Martian surface, now under a rising sun.",
+      "tone": "hopefulness and resolve",
+      "arc_position": "resolution",
+      "summary": "The astronaut ascends back to the surface as dawn breaks. She stands at the edge of the cavern, looking out over the Martian landscape. With a renewed sense of hope, she signals back to her base, ready to share her incredible discovery with the world.",
+      "estimated_duration_seconds": 25,
+      "themes": [
+        "hope",
+        "resolution"
+      ]
+    }
+  ],
+  "total_estimated_duration_seconds": 125,
+  "premise": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+  "setting_description": "A visually stunning Martian landscape with a hidden, glowing ocean beneath its surface, filled with bioluminescent life."
+}

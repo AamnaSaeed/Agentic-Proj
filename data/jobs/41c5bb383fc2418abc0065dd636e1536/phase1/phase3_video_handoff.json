@@ -1,0 +1,71 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "visual_prompt": "3D Pixar-style CGI, Aboard a futuristic spacecraft hovering above the red, barren landscape of Mars., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_left",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 30,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "visual_prompt": "3D Pixar-style CGI, Inside the spacecraft's research lab, filled with high-tech gadgets and displays., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "cut",
+      "transition_out": "dissolve",
+      "duration_seconds": 30,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "visual_prompt": "3D Pixar-style CGI, The surface of Mars, with its iconic red sands and rocky terrain., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "ken_burns",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "duration_seconds": 40,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "visual_prompt": "3D Pixar-style CGI, The glowing cavern, echoing with the sound of gentle waves., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "fade_in",
+      "transition_out": "dissolve",
+      "duration_seconds": 30,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "visual_prompt": "3D Pixar-style CGI, Back on the spacecraft, with Earth visible in the distance through the window., Alex (young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_right",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "duration_seconds": 30,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    }
+  ],
+  "character_appearance_prompts": {
+    "char_001": "young astronaut with short dark hair, wearing a sleek blue and white spacesuit, curious eyes",
+    "char_002": "n/a"
+  },
+  "global_art_style": "3D Pixar-style CGI"
+}

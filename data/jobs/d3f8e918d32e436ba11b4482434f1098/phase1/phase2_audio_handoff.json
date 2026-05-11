@@ -1,0 +1,236 @@
+{
+  "voice_configs": {
+    "char_001": {
+      "gender": "neutral",
+      "age_range": "young_adult",
+      "tone": "hopeful",
+      "speed": 1.0,
+      "emotion_baseline": "optimistic",
+      "accent": "neutral",
+      "tts_style_tags": [
+        "narrative",
+        "inquisitive"
+      ]
+    },
+    "char_002": {
+      "gender": "male",
+      "age_range": "adult",
+      "tone": "calm",
+      "speed": 1.0,
+      "emotion_baseline": "supportive",
+      "accent": "british",
+      "tts_style_tags": [
+        "authoritative",
+        "supportive"
+      ]
+    }
+  },
+  "audio_segments": [
+    {
+      "segment_id": "scene_001_line_001",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "The stars are just the beginning. What lies beneath this surface might be even more incredible.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "excited"
+    },
+    {
+      "segment_id": "scene_001_line_002",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "With this map, I'm ready to uncover Mars' secrets.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "timing_offset_seconds": 16.0,
+      "duration_hint_seconds": 6.5,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_002_line_001",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "The instruments are beeping faster. I must be getting closer to something extraordinary.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "determined"
+    },
+    {
+      "segment_id": "scene_002_line_002",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Mission Control, this is Alex. I'm approaching an energy source—could be big.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "timing_offset_seconds": 16.0,
+      "duration_hint_seconds": 6.5,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_003_line_001",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "I've never seen anything like this. It's... it's beautiful.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 6.0,
+      "emotion": "sad"
+    },
+    {
+      "segment_id": "scene_003_line_002",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "This water feels alive. Mars has kept its secrets well.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "timing_offset_seconds": 16.0,
+      "duration_hint_seconds": 5.8,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_004_line_001",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Earth, this is Alex. We found life where none was expected. The implications are enormous.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_004_line_002",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Our quest for knowledge just took a giant leap forward.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "timing_offset_seconds": 16.0,
+      "duration_hint_seconds": 6.5,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_005_line_001",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "This discovery is the dawn of a new era, for Mars and for humanity.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "narrative",
+          "inquisitive"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "neutral"
+    }
+  ],
+  "music_moods": {
+    "scene_001": "gentle",
+    "scene_002": "energetic",
+    "scene_003": "mystical",
+    "scene_004": "reflective",
+    "scene_005": "uplifting"
+  },
+  "total_segments": 9
+}

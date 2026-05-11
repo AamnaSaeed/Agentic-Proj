@@ -1,0 +1,191 @@
+{
+  "voice_configs": {
+    "char_001": {
+      "gender": "female",
+      "age_range": "young_adult",
+      "tone": "assertive",
+      "speed": 1.0,
+      "emotion_baseline": "determined",
+      "accent": "american",
+      "tts_style_tags": [
+        "strong",
+        "clear",
+        "purposeful"
+      ]
+    },
+    "char_002": {
+      "gender": "male",
+      "age_range": "adult",
+      "tone": "thoughtful",
+      "speed": 0.9,
+      "emotion_baseline": "curious",
+      "accent": "british",
+      "tts_style_tags": [
+        "intelligent",
+        "reflective",
+        "calm"
+      ]
+    },
+    "char_003": {
+      "gender": "neutral",
+      "age_range": "adult",
+      "tone": "mystical",
+      "speed": 1.0,
+      "emotion_baseline": "serene",
+      "accent": "neutral",
+      "tts_style_tags": [
+        "mysterious",
+        "ambient",
+        "otherworldly"
+      ]
+    }
+  },
+  "audio_segments": [
+    {
+      "segment_id": "scene_001_line_001",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "The horizon seems endless, yet here I am, ready to uncover its secrets.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "assertive",
+        "speed": 1.0,
+        "emotion_baseline": "determined",
+        "accent": "american",
+        "tts_style_tags": [
+          "strong",
+          "clear",
+          "purposeful"
+        ]
+      },
+      "timing_offset_seconds": 1.0,
+      "duration_hint_seconds": 6.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_001_line_002",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Equipment's all set. Let's make history.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "assertive",
+        "speed": 1.0,
+        "emotion_baseline": "determined",
+        "accent": "american",
+        "tts_style_tags": [
+          "strong",
+          "clear",
+          "purposeful"
+        ]
+      },
+      "timing_offset_seconds": 7.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_002_line_001",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "A hidden path... let's see where you lead.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "assertive",
+        "speed": 1.0,
+        "emotion_baseline": "determined",
+        "accent": "american",
+        "tts_style_tags": [
+          "strong",
+          "clear",
+          "purposeful"
+        ]
+      },
+      "timing_offset_seconds": 1.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_002_line_002",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Time to uncover the mysteries beneath.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "assertive",
+        "speed": 1.0,
+        "emotion_baseline": "determined",
+        "accent": "american",
+        "tts_style_tags": [
+          "strong",
+          "clear",
+          "purposeful"
+        ]
+      },
+      "timing_offset_seconds": 6.0,
+      "duration_hint_seconds": 4.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_003_line_001",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Incredible... it's like an alien paradise.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "assertive",
+        "speed": 1.0,
+        "emotion_baseline": "determined",
+        "accent": "american",
+        "tts_style_tags": [
+          "strong",
+          "clear",
+          "purposeful"
+        ]
+      },
+      "timing_offset_seconds": 1.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "excited"
+    },
+    {
+      "segment_id": "scene_003_line_002",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "This changes everything we know about Mars.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "assertive",
+        "speed": 1.0,
+        "emotion_baseline": "determined",
+        "accent": "american",
+        "tts_style_tags": [
+          "strong",
+          "clear",
+          "purposeful"
+        ]
+      },
+      "timing_offset_seconds": 6.0,
+      "duration_hint_seconds": 4.0,
+      "emotion": "neutral"
+    }
+  ],
+  "music_moods": {
+    "scene_001": "hopeful",
+    "scene_002": "mysterious",
+    "scene_003": "majestic",
+    "scene_004": "reflective",
+    "scene_005": "hopeful"
+  },
+  "total_segments": 6
+}

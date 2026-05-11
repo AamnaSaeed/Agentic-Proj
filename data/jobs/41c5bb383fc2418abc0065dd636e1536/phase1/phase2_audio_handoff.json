@@ -1,0 +1,258 @@
+{
+  "voice_configs": {
+    "char_001": {
+      "gender": "neutral",
+      "age_range": "young_adult",
+      "tone": "hopeful and determined",
+      "speed": 1.0,
+      "emotion_baseline": "enthusiastic",
+      "accent": "neutral",
+      "tts_style_tags": [
+        "inquisitive",
+        "inspirational"
+      ]
+    },
+    "char_002": {
+      "gender": "male",
+      "age_range": "adult",
+      "tone": "calm and authoritative",
+      "speed": 0.9,
+      "emotion_baseline": "reassuring",
+      "accent": "british",
+      "tts_style_tags": [
+        "guiding",
+        "steady"
+      ]
+    }
+  },
+  "audio_segments": [
+    {
+      "segment_id": "scene_001_line_001",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Mars, you hold secrets like whispered dreams waiting to be heard.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_001_line_002",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "I believe there's something wondrous out there, something that could change everything.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "timing_offset_seconds": 8.0,
+      "duration_hint_seconds": 6.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_002_line_001",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "The surface readings are off the charts. What could be causing this?",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "curious"
+    },
+    {
+      "segment_id": "scene_002_line_002",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "I have to know what's out there. Let's prep the rover for a closer look.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "timing_offset_seconds": 8.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "curious"
+    },
+    {
+      "segment_id": "scene_003_line_001",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "I've never seen anything like this... The ocean glows like a living rainbow.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "sad"
+    },
+    {
+      "segment_id": "scene_004_line_001",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "This discovery... it's a turning point for us, for Earth.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_005_line_001",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Sending the data now. This is just the beginning.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 8.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_005_line_002",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "Mission Control, we've found something extraordinary. It's beautiful.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "timing_offset_seconds": 8.0,
+      "duration_hint_seconds": 7.0,
+      "emotion": "sad"
+    },
+    {
+      "segment_id": "scene_005_line_003",
+      "scene_id": "scene_005",
+      "character_id": "char_002",
+      "line_id": "line_003",
+      "text": "Alex, your findings could redefine our understanding of Mars.",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "adult",
+        "tone": "calm and authoritative",
+        "speed": 0.9,
+        "emotion_baseline": "reassuring",
+        "accent": "british",
+        "tts_style_tags": [
+          "guiding",
+          "steady"
+        ]
+      },
+      "timing_offset_seconds": 15.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "calm"
+    },
+    {
+      "segment_id": "scene_005_line_004",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_004",
+      "text": "With this, we open a new chapter in space exploration.",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "enthusiastic",
+        "accent": "neutral",
+        "tts_style_tags": [
+          "inquisitive",
+          "inspirational"
+        ]
+      },
+      "timing_offset_seconds": 20.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    }
+  ],
+  "music_moods": {
+    "scene_001": "inspirational",
+    "scene_002": "tense",
+    "scene_003": "awe-inspiring",
+    "scene_004": "reflective",
+    "scene_005": "triumphant"
+  },
+  "total_segments": 10
+}

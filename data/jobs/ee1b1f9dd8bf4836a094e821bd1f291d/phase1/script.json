@@ -1,0 +1,165 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "I've found something unusual on the satellite images. It might be a hidden ocean!",
+          "emotion": "neutral",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 7.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_002",
+          "text": "Fascinating! We must prepare for an expedition immediately.",
+          "emotion": "determined",
+          "timing_offset_seconds": 7.0,
+          "duration_hint_seconds": 7.0
+        },
+        {
+          "line_id": "line_003",
+          "character_id": "char_003",
+          "text": "Elara, your findings could change everything. Proceed with caution.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 14.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, Inside a futuristic Martian base, filled with advanced technology. The red Martian landscape can be seen through large windows., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), Dr. Levin (middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor), Commander Ortega (tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "background_music_mood": "gentle",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_002",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "Alright, Mars, show me your secrets.",
+          "emotion": "curious",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "The rover's ready for anything. Let's find that ocean!",
+          "emotion": "neutral",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, The barren, red terrain of Mars. Dust storms occasionally sweep across the landscape., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_right",
+      "transition_in": "dissolve",
+      "transition_out": "cut",
+      "background_music_mood": "adventurous",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_003",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "This is incredible... An ocean glowing with life!",
+          "emotion": "excited",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "I've never seen anything like it.",
+          "emotion": "sad",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, A hidden cave beneath the surface, illuminated by a mesmerizing, glowing ocean., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_left",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "background_music_mood": "ethereal",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_004",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "The samples are secure. This discovery will change everything we know about Mars.",
+          "emotion": "joyful",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 7.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "I can't wait to share this with Earth.",
+          "emotion": "reflective",
+          "timing_offset_seconds": 7.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, The ascent back to the Martian base, under the vast, starry sky., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "ken_burns",
+      "transition_in": "cut",
+      "transition_out": "dissolve",
+      "background_music_mood": "reflective",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_005",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "We did it! The glowing ocean is just the beginning.",
+          "emotion": "inspired",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_002",
+          "text": "This will open new doors for exploration.",
+          "emotion": "hopeful",
+          "timing_offset_seconds": 5.0,
+          "duration_hint_seconds": 5.0
+        },
+        {
+          "line_id": "line_003",
+          "character_id": "char_004",
+          "text": "I can't wait to dive into the data!",
+          "emotion": "excited",
+          "timing_offset_seconds": 10.0,
+          "duration_hint_seconds": 5.0
+        }
+      ],
+      "visual_prompt": "3D Pixar-style CGI, Inside a futuristic Martian base, filled with advanced technology. The red Martian landscape can be seen through large windows., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), Dr. Levin (middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor), Commander Ortega (tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression), Kai (young man with shaggy blonde hair, wearing casual Martian base outfit, friendly and enthusiastic demeanor), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "background_music_mood": "uplifting",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    }
+  ]
+}

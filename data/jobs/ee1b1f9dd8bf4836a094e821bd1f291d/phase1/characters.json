@@ -1,0 +1,159 @@
+{
+  "characters": [
+    {
+      "character_id": "char_001",
+      "name": "Elara",
+      "role": "protagonist",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "standard american",
+        "tts_style_tags": [
+          "bright",
+          "adventurous"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Young woman with auburn, wavy hair tied back in a practical ponytail. She has bright green eyes.",
+        "clothing": "Sleek, silver astronaut suit with a clear visor.",
+        "distinctive_features": "Focused and determined expression.",
+        "color_palette": [
+          "#C0C0C0",
+          "#FF4500",
+          "#32CD32"
+        ],
+        "art_style_prompt": "young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression"
+      },
+      "personality_traits": [
+        "curious",
+        "courageous",
+        "optimistic"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_002",
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ],
+      "background": "Elara is a young astronaut passionate about space exploration, driven to uncover the mysteries of Mars."
+    },
+    {
+      "character_id": "char_002",
+      "name": "Dr. Levin",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "adult",
+        "tone": "scholarly and calm",
+        "speed": 0.9,
+        "emotion_baseline": "thoughtful",
+        "accent": "british",
+        "tts_style_tags": [
+          "calm",
+          "intellectual"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Middle-aged man with salt-and-pepper hair.",
+        "clothing": "White lab coat over casual Martian base attire.",
+        "distinctive_features": "Sharp, analytical eyes and a kind, scholarly demeanor.",
+        "color_palette": [
+          "#FFFFFF",
+          "#708090",
+          "#4682B4"
+        ],
+        "art_style_prompt": "middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor"
+      },
+      "personality_traits": [
+        "wise",
+        "supportive",
+        "insightful"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_005"
+      ],
+      "background": "Dr. Levin is an experienced planetary scientist providing guidance and insight to Elara and the team."
+    },
+    {
+      "character_id": "char_003",
+      "name": "Commander Ortega",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "adult",
+        "tone": "commanding and warm",
+        "speed": 1.0,
+        "emotion_baseline": "encouraging",
+        "accent": "spanish",
+        "tts_style_tags": [
+          "authoritative",
+          "supportive"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Tall woman in her late 40s with short-cropped black hair.",
+        "clothing": "Commanding officer's uniform with Martian expedition insignias.",
+        "distinctive_features": "Serious yet approachable expression.",
+        "color_palette": [
+          "#000000",
+          "#FFD700",
+          "#8B0000"
+        ],
+        "art_style_prompt": "tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression"
+      },
+      "personality_traits": [
+        "firm",
+        "fair",
+        "empathetic"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_005"
+      ],
+      "background": "Commander Ortega leads the team with a balance of authority and empathy, encouraging exploration."
+    },
+    {
+      "character_id": "char_004",
+      "name": "Kai",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "young_adult",
+        "tone": "energetic and friendly",
+        "speed": 1.2,
+        "emotion_baseline": "excited",
+        "accent": "australian",
+        "tts_style_tags": [
+          "cheerful",
+          "energetic"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Young man with shaggy blonde hair.",
+        "clothing": "Casual Martian base outfit.",
+        "distinctive_features": "Friendly face and enthusiastic demeanor.",
+        "color_palette": [
+          "#FFD700",
+          "#87CEEB",
+          "#32CD32"
+        ],
+        "art_style_prompt": "young man with shaggy blonde hair, wearing casual Martian base outfit, friendly and enthusiastic demeanor"
+      },
+      "personality_traits": [
+        "enthusiastic",
+        "inquisitive",
+        "supportive"
+      ],
+      "scenes_appearing_in": [
+        "scene_005"
+      ],
+      "background": "Kai is an enthusiastic team member, eager to learn and assist, boosting team morale."
+    }
+  ],
+  "global_art_style": "3D Pixar-style CGI"
+}

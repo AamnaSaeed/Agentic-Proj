@@ -1,0 +1,440 @@
+{
+  "job_id": "1ee7a82f910e49238597632409602d51",
+  "prompt": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+  "status": "failed",
+  "current_phase": null,
+  "phases": {
+    "1": "completed",
+    "2": "completed",
+    "3": "running"
+  },
+  "progress": 75,
+  "message": "No scene clips produced.",
+  "errors": [
+    "No scene clips produced."
+  ],
+  "outputs": {
+    "phase1": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1",
+      "artifacts": {
+        "story": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\story.json",
+        "characters": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\characters.json",
+        "script": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\script.json",
+        "phase2_audio_handoff": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\phase2_audio_handoff.json",
+        "phase3_video_handoff": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\phase3_video_handoff.json",
+        "summary": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\summary.json"
+      },
+      "story": {
+        "title": "The Luminescent Discovery",
+        "genre": "Sci-fi",
+        "themes": [
+          "exploration",
+          "discovery",
+          "hope"
+        ],
+        "arc": [
+          "intro",
+          "rising_action",
+          "climax",
+          "falling_action",
+          "resolution"
+        ],
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "title": "The Mars Base",
+            "setting": "A futuristic Mars base with red rocky terrains visible through the windows. The interior is filled with advanced technology and bustling scientists.",
+            "tone": "hopeful and curious",
+            "arc_position": "intro",
+            "summary": "An astronaut named Alex gazes out of the window, dreaming about the mysteries Mars holds. They have always believed there's more beneath the surface of the Red Planet. They gear up for an exploration mission, determined to find something extraordinary.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "exploration",
+              "curiosity"
+            ]
+          },
+          {
+            "scene_id": "scene_002",
+            "title": "Journey to the Unknown",
+            "setting": "The barren, dusty surface of Mars, under a brilliant sky filled with stars.",
+            "tone": "adventurous and tense",
+            "arc_position": "rising_action",
+            "summary": "Alex drives a rover across the rocky landscape, following coordinates that suggest an anomaly. The communication link with the base is crackling, adding to the tension as they venture further into uncharted territory.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "adventure",
+              "determination"
+            ]
+          },
+          {
+            "scene_id": "scene_003",
+            "title": "The Glowing Ocean",
+            "setting": "An underground cave, revealed after a dramatic landslide. Inside, the walls glisten with crystalline deposits, and in the center lies a vast, glowing ocean, shimmering in shades of turquoise and green.",
+            "tone": "awe and wonder",
+            "arc_position": "climax",
+            "summary": "Alex stands at the edge of the glowing ocean, overwhelmed by its beauty and the realization of its significance. They record everything, knowing this discovery could change humanity's understanding of Mars.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "discovery",
+              "wonder"
+            ]
+          },
+          {
+            "scene_id": "scene_004",
+            "title": "Sharing the Discovery",
+            "setting": "Back in the rover, now heading towards the base, the sky beginning to darken with the Martian dusk.",
+            "tone": "relieved and excited",
+            "arc_position": "falling_action",
+            "summary": "Alex communicates with the base, sharing the footage and describing the glowing ocean. The base erupts in excitement and disbelief, as Alex smiles, knowing they have found something truly remarkable.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "communication",
+              "achievement"
+            ]
+          },
+          {
+            "scene_id": "scene_005",
+            "title": "A New Beginning",
+            "setting": "The Mars base, now bustling with activity, as scientists prepare for a new expedition to the glowing ocean.",
+            "tone": "hopeful and inspiring",
+            "arc_position": "resolution",
+            "summary": "As Alex stands, watching the preparations, they feel a sense of fulfillment and anticipation for the future. The discovery has opened new doors, and the mysteries of Mars are just beginning to unfold.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "hope",
+              "future"
+            ]
+          }
+        ],
+        "total_estimated_duration_seconds": 160,
+        "premise": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+        "setting_description": "A futuristic Mars base on the surface of Mars, with advanced technology and a landscape of red rocky terrains, leading to an underground cave with a glowing ocean."
+      },
+      "characters": {
+        "characters": [
+          {
+            "character_id": "char_001",
+            "name": "Alex",
+            "role": "protagonist",
+            "voice_config": {
+              "gender": "neutral",
+              "age_range": "young_adult",
+              "tone": "curious and hopeful",
+              "speed": 1.0,
+              "emotion_baseline": "excited",
+              "accent": "neutral",
+              "tts_style_tags": [
+                "explorer",
+                "motivational"
+              ]
+            },
+            "appearance": {
+              "physical_description": "Young adult with short sandy hair",
+              "clothing": "Sleek white and silver astronaut suit with a transparent helmet",
+              "distinctive_features": "Eyes filled with curiosity and determination",
+              "color_palette": [
+                "#FFFFFF",
+                "#C0C0C0",
+                "#FFD700"
+              ],
+              "art_style_prompt": "young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination"
+            },
+            "personality_traits": [
+              "inquisitive",
+              "brave",
+              "determined",
+              "hopeful"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_002",
+              "scene_003",
+              "scene_004",
+              "scene_005"
+            ],
+            "background": "Alex has always dreamed of uncovering the secrets of Mars. Their determination and hope drive the narrative forward."
+          },
+          {
+            "character_id": "char_002",
+            "name": "Dr. Elena Carter",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "female",
+              "age_range": "adult",
+              "tone": "analytical and warm",
+              "speed": 0.9,
+              "emotion_baseline": "calm",
+              "accent": "british",
+              "tts_style_tags": [
+                "scientist",
+                "nurturing"
+              ]
+            },
+            "appearance": {
+              "physical_description": "Middle-aged woman with silver-streaked black hair",
+              "clothing": "Lab coat over a casual turtleneck",
+              "distinctive_features": "Glasses perched on her nose, with a thoughtful expression",
+              "color_palette": [
+                "#000000",
+                "#FFFFFF",
+                "#808080"
+              ],
+              "art_style_prompt": "middle-aged woman with silver-streaked black hair, wearing a lab coat over a casual turtleneck, glasses perched on her nose, with a thoughtful expression"
+            },
+            "personality_traits": [
+              "supportive",
+              "wise",
+              "nurturing",
+              "thoughtful"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_004",
+              "scene_005"
+            ],
+            "background": "A seasoned scientist with a nurturing demeanor, Dr. Carter is supportive of new ideas and discoveries, providing guidance and wisdom."
+          },
+          {
+            "character_id": "char_003",
+            "name": "Rover AI",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "neutral",
+              "age_range": "adult",
+              "tone": "monotone and precise",
+              "speed": 1.2,
+              "emotion_baseline": "neutral",
+              "accent": "robotic",
+              "tts_style_tags": [
+                "robot",
+                "efficient"
+              ]
+            },
+            "appearance": {
+              "physical_description": "Sleek, compact robotic rover with a smooth metallic surface",
+              "clothing": "N/A",
+              "distinctive_features": "Glowing interface, exuding an aura of intelligence and efficiency",
+              "color_palette": [
+                "#A9A9A9",
+                "#0000FF",
+                "#00FF00"
+              ],
+              "art_style_prompt": "sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency"
+            },
+            "personality_traits": [
+              "efficient",
+              "precise",
+              "intelligent"
+            ],
+            "scenes_appearing_in": [
+              "scene_002",
+              "scene_003",
+              "scene_004"
+            ],
+            "background": "The Rover AI is efficient and precise, designed to assist with navigation and data collection during explorations."
+          }
+        ],
+        "global_art_style": "3D Pixar-style CGI"
+      },
+      "script": {
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Just look at those red terrains. Mars holds so many mysteries yet to be discovered.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 6.5
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_002",
+                "text": "With your determination, I'm sure you'll find something extraordinary, Alex.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 6.5,
+                "duration_hint_seconds": 7.5
+              },
+              {
+                "line_id": "line_003",
+                "character_id": "char_001",
+                "text": "Time to gear up. The Red Planet awaits!",
+                "emotion": "neutral",
+                "timing_offset_seconds": 14.0,
+                "duration_hint_seconds": 5.7
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, A futuristic Mars base with red rocky terrains visible through the windows. The interior is filled with advanced technology and bustling scientists., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Dr. Elena Carter (middle-aged woman with silver-streaked black hair, wearing a lab coat over a casual turtleneck, glasses perched on her nose, with a thoughtful expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "pan_left",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "hopeful",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 20
+          },
+          {
+            "scene_id": "scene_002",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Rover, follow these coordinates. We might finally see what's hidden out there.",
+                "emotion": "curious",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 7.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_003",
+                "text": "Coordinates set. All systems optimal for navigation.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 7.0,
+                "duration_hint_seconds": 5.5
+              },
+              {
+                "line_id": "line_003",
+                "character_id": "char_003",
+                "text": "Stay alert, Alex. The communication link is unstable.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 12.5,
+                "duration_hint_seconds": 4.5
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, The barren, dusty surface of Mars, under a brilliant sky filled with stars., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Rover AI (sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "static",
+            "transition_in": "cut",
+            "transition_out": "cut",
+            "background_music_mood": "tense",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 17
+          },
+          {
+            "scene_id": "scene_003",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "This is beyond anything I imagined. It's beautiful!",
+                "emotion": "neutral",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 6.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_003",
+                "text": "Recording initiated. Data transmission ready.",
+                "emotion": "sad",
+                "timing_offset_seconds": 6.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_003",
+                "character_id": "char_001",
+                "text": "This discovery will change everything we know about Mars.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 11.0,
+                "duration_hint_seconds": 3.7
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, An underground cave, revealed after a dramatic landslide. Inside, the walls glisten with crystalline deposits, and in the center lies a vast, glowing ocean, shimmering in shades of turquoise and green., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Rover AI (sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "zoom_in",
+            "transition_in": "dissolve",
+            "transition_out": "dissolve",
+            "background_music_mood": "ethereal",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 15
+          },
+          {
+            "scene_id": "scene_004",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Base, you won't believe what I've found. Sending the footage now.",
+                "emotion": "curious",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 8.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_002",
+                "text": "This is unbelievable, Alex! The entire base is buzzing with excitement.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 8.0,
+                "duration_hint_seconds": 6.5
+              },
+              {
+                "line_id": "line_003",
+                "character_id": "char_001",
+                "text": "I knew we were onto something extraordinary.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 14.5,
+                "duration_hint_seconds": 3.4
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, Back in the rover, now heading towards the base, the sky beginning to darken with the Martian dusk., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Rover AI (sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "static",
+            "transition_in": "cut",
+            "transition_out": "cut",
+            "background_music_mood": "triumphant",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 18
+          },
+          {
+            "scene_id": "scene_005",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Look at them all, preparing to uncover more mysteries of Mars.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 6.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_002",
+                "text": "Your discovery has opened new doors, Alex. It's just the beginning.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 6.0,
+                "duration_hint_seconds": 6.0
+              },
+              {
+                "line_id": "line_003",
+                "character_id": "char_001",
+                "text": "I can feel it, Dr. Carter. We're on the brink of something incredible.",
+                "emotion": "excited",
+                "timing_offset_seconds": 12.0,
+                "duration_hint_seconds": 6.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, The Mars base, now bustling with activity, as scientists prepare for a new expedition to the glowing ocean., Alex (young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination), Dr. Elena Carter (middle-aged woman with silver-streaked black hair, wearing a lab coat over a casual turtleneck, glasses perched on her nose, with a thoughtful expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "pan_right",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "inspiring",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 18
+          }
+        ]
+      }
+    },
+    "phase2": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2",
+      "timing_manifest": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\timing_manifest.json",
+      "full_audio": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\full_audio.wav",
+      "summary": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\summary.json",
+      "scene_count": 5,
+      "segment_count": 15
+    }
+  },
+  "created_at": "2026-05-07T07:28:57Z",
+  "updated_at": "2026-05-07T07:52:16Z"
+}

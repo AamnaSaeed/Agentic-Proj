@@ -1,0 +1,272 @@
+{
+  "phase": "phase2_audio",
+  "run_status": "success",
+  "output_dir": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2",
+  "segments": [
+    {
+      "segment_id": "scene_001_line_001",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Just look at those red terrains. Mars holds so many mysteries yet to be discovered.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_001_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 5304,
+      "duration_ms": 5304,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_001_line_002",
+      "scene_id": "scene_001",
+      "character_id": "char_002",
+      "line_id": "line_002",
+      "text": "With your determination, I'm sure you'll find something extraordinary, Alex.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_001_line_002.wav",
+      "start_ms": 6500,
+      "end_ms": 11851,
+      "duration_ms": 5351,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_001_line_003",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "Time to gear up. The Red Planet awaits!",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_001_line_003.wav",
+      "start_ms": 14000,
+      "end_ms": 17168,
+      "duration_ms": 3168,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_002_line_001",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Rover, follow these coordinates. We might finally see what's hidden out there.",
+      "emotion": "curious",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_002_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 4776,
+      "duration_ms": 4776,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_002_line_002",
+      "scene_id": "scene_002",
+      "character_id": "char_003",
+      "line_id": "line_002",
+      "text": "Coordinates set. All systems optimal for navigation.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_002_line_002.wav",
+      "start_ms": 7000,
+      "end_ms": 10816,
+      "duration_ms": 3816,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_002_line_003",
+      "scene_id": "scene_002",
+      "character_id": "char_003",
+      "line_id": "line_003",
+      "text": "Stay alert, Alex. The communication link is unstable.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_002_line_003.wav",
+      "start_ms": 12500,
+      "end_ms": 16700,
+      "duration_ms": 4200,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_003_line_001",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "This is beyond anything I imagined. It's beautiful!",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_003_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 3791,
+      "duration_ms": 3791,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_003_line_002",
+      "scene_id": "scene_003",
+      "character_id": "char_003",
+      "line_id": "line_002",
+      "text": "Recording initiated. Data transmission ready.",
+      "emotion": "sad",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_003_line_002.wav",
+      "start_ms": 6000,
+      "end_ms": 9648,
+      "duration_ms": 3648,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_003_line_003",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "This discovery will change everything we know about Mars.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_003_line_003.wav",
+      "start_ms": 11000,
+      "end_ms": 14456,
+      "duration_ms": 3456,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_004_line_001",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Base, you won't believe what I've found. Sending the footage now.",
+      "emotion": "curious",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_004_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 3984,
+      "duration_ms": 3984,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_004_line_002",
+      "scene_id": "scene_004",
+      "character_id": "char_002",
+      "line_id": "line_002",
+      "text": "This is unbelievable, Alex! The entire base is buzzing with excitement.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_004_line_002.wav",
+      "start_ms": 8000,
+      "end_ms": 14288,
+      "duration_ms": 6288,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_004_line_003",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "I knew we were onto something extraordinary.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_004_line_003.wav",
+      "start_ms": 14500,
+      "end_ms": 17284,
+      "duration_ms": 2784,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_005_line_001",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Look at them all, preparing to uncover more mysteries of Mars.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_005_line_001.wav",
+      "start_ms": 0,
+      "end_ms": 4344,
+      "duration_ms": 4344,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_005_line_002",
+      "scene_id": "scene_005",
+      "character_id": "char_002",
+      "line_id": "line_002",
+      "text": "Your discovery has opened new doors, Alex. It's just the beginning.",
+      "emotion": "neutral",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_005_line_002.wav",
+      "start_ms": 6000,
+      "end_ms": 11976,
+      "duration_ms": 5976,
+      "provider": "edge_tts"
+    },
+    {
+      "segment_id": "scene_005_line_003",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_003",
+      "text": "I can feel it, Dr. Carter. We're on the brink of something incredible.",
+      "emotion": "excited",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\segments\\scene_005_line_003.wav",
+      "start_ms": 12000,
+      "end_ms": 16176,
+      "duration_ms": 4176,
+      "provider": "edge_tts"
+    }
+  ],
+  "scene_tracks": [
+    {
+      "scene_id": "scene_001",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\scenes\\scene_001_mix.wav",
+      "duration_seconds": 17.667981859410432
+    },
+    {
+      "scene_id": "scene_002",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\scenes\\scene_002_mix.wav",
+      "duration_seconds": 17.2
+    },
+    {
+      "scene_id": "scene_003",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\scenes\\scene_003_mix.wav",
+      "duration_seconds": 14.955963718820861
+    },
+    {
+      "scene_id": "scene_004",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\scenes\\scene_004_mix.wav",
+      "duration_seconds": 17.783990929705215
+    },
+    {
+      "scene_id": "scene_005",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\scenes\\scene_005_mix.wav",
+      "duration_seconds": 16.67596371882086
+    }
+  ],
+  "bgm_tracks": [
+    {
+      "scene_id": "scene_001",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\bgm\\scene_001_bgm.wav",
+      "duration_seconds": 17.668,
+      "mood": "hopeful",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_002",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\bgm\\scene_002_bgm.wav",
+      "duration_seconds": 17.2,
+      "mood": "tense",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_003",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\bgm\\scene_003_bgm.wav",
+      "duration_seconds": 14.956,
+      "mood": "ethereal",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_004",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\bgm\\scene_004_bgm.wav",
+      "duration_seconds": 17.784,
+      "mood": "triumphant",
+      "provider": "offline_procedural_bgm"
+    },
+    {
+      "scene_id": "scene_005",
+      "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\bgm\\scene_005_bgm.wav",
+      "duration_seconds": 16.676,
+      "mood": "inspiring",
+      "provider": "offline_procedural_bgm"
+    }
+  ],
+  "full_audio": {
+    "audio_file": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\full_audio.wav",
+    "duration_seconds": 84.28390022675737
+  },
+  "total_segments": 15,
+  "total_duration_ms": 84283
+}

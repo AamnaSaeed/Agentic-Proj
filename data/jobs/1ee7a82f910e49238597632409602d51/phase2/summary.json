@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "output_dir": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2",
+  "timing_manifest": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\timing_manifest.json",
+  "full_audio": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase2\\full_audio.wav",
+  "scene_count": 5,
+  "segment_count": 15,
+  "providers": {
+    "tts": [
+      "edge_tts"
+    ],
+    "bgm": "offline_procedural_bgm"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, A dusty, barren landscape on the surface of Mars, under a dark sky speckled with stars., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "fade_in",
+      "transition_out": "dissolve",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, Inside a cramped yet high-tech rover, traversing the Martian surface., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_right",
+      "transition_in": "dissolve",
+      "transition_out": "cut",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, A cavernous underground tunnel, dimly lit by the rover's headlights., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_left",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, Back at the rover, now parked beside the glowing ocean., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "visual_prompt": "Studio Ghibli-style watercolour anime, A panoramic view of Mars, transitioning from the glowing ocean back to the surface., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_out",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    }
+  ],
+  "character_appearance_prompts": {
+    "char_001": "young astronaut with short brown hair, wearing a sleek silver space suit, determined expression",
+    "char_002": "N/A"
+  },
+  "global_art_style": "Studio Ghibli-style watercolour anime"
+}

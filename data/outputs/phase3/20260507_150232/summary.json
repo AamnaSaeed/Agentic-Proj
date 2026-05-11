@@ -1,0 +1,19 @@
+{
+  "phase": 3,
+  "run_id": "20260507_150232",
+  "story_title": "Untitled Story",
+  "scenes_processed": 5,
+  "total_scenes": 5,
+  "images_per_scene": 3,
+  "final_video": "D:\\agentic project\\data\\outputs\\phase3\\20260507_150232\\final_output.mp4",
+  "subtitles": "D:\\agentic project\\data\\outputs\\phase3\\20260507_150232\\subtitles.srt",
+  "scene_clips": [
+    "D:\\agentic project\\data\\outputs\\phase3\\20260507_150232\\scenes\\scene_001_final.mp4",
+    "D:\\agentic project\\data\\outputs\\phase3\\20260507_150232\\scenes\\scene_002_final.mp4",
+    "D:\\agentic project\\data\\outputs\\phase3\\20260507_150232\\scenes\\scene_003_final.mp4",
+    "D:\\agentic project\\data\\outputs\\phase3\\20260507_150232\\scenes\\scene_004_final.mp4",
+    "D:\\agentic project\\data\\outputs\\phase3\\20260507_150232\\scenes\\scene_005_final.mp4"
+  ],
+  "output_dir": "D:\\agentic project\\data\\outputs\\phase3\\20260507_150232",
+  "status": "success"
+}

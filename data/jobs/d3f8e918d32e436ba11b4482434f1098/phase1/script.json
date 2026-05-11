@@ -1,0 +1,141 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "The stars are just the beginning. What lies beneath this surface might be even more incredible.",
+          "emotion": "excited",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 8.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "With this map, I'm ready to uncover Mars' secrets.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 16.0,
+          "duration_hint_seconds": 6.5
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, A dusty, barren landscape on the surface of Mars, under a dark sky speckled with stars., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "fade_in",
+      "transition_out": "dissolve",
+      "background_music_mood": "gentle",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_002",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "The instruments are beeping faster. I must be getting closer to something extraordinary.",
+          "emotion": "determined",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 8.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "Mission Control, this is Alex. I'm approaching an energy source—could be big.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 16.0,
+          "duration_hint_seconds": 6.5
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, Inside a cramped yet high-tech rover, traversing the Martian surface., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_right",
+      "transition_in": "dissolve",
+      "transition_out": "cut",
+      "background_music_mood": "energetic",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_003",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "I've never seen anything like this. It's... it's beautiful.",
+          "emotion": "sad",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 6.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "This water feels alive. Mars has kept its secrets well.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 16.0,
+          "duration_hint_seconds": 5.8
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, A cavernous underground tunnel, dimly lit by the rover's headlights., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_left",
+      "transition_in": "cut",
+      "transition_out": "fade_out",
+      "background_music_mood": "mystical",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_004",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "Earth, this is Alex. We found life where none was expected. The implications are enormous.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 8.0
+        },
+        {
+          "line_id": "line_002",
+          "character_id": "char_001",
+          "text": "Our quest for knowledge just took a giant leap forward.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 16.0,
+          "duration_hint_seconds": 6.5
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, Back at the rover, now parked beside the glowing ocean., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "dissolve",
+      "transition_out": "dissolve",
+      "background_music_mood": "reflective",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    },
+    {
+      "scene_id": "scene_005",
+      "dialogue": [
+        {
+          "line_id": "line_001",
+          "character_id": "char_001",
+          "text": "This discovery is the dawn of a new era, for Mars and for humanity.",
+          "emotion": "neutral",
+          "timing_offset_seconds": 0.0,
+          "duration_hint_seconds": 8.0
+        }
+      ],
+      "visual_prompt": "Studio Ghibli-style watercolour anime, A panoramic view of Mars, transitioning from the glowing ocean back to the surface., Alex the Astronaut (Young astronaut with short brown hair, bright eyes full of curiosity, wearing a sleek silver space suit with patches of exploration missions.), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_out",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "background_music_mood": "uplifting",
+      "subtitle_text": "",
+      "estimated_duration_seconds": 32
+    }
+  ]
+}

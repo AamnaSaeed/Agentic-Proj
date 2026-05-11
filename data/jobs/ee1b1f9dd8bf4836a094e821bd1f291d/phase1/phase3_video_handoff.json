@@ -1,0 +1,76 @@
+{
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "visual_prompt": "3D Pixar-style CGI, Inside a futuristic Martian base, filled with advanced technology. The red Martian landscape can be seen through large windows., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), Dr. Levin (middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor), Commander Ortega (tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "zoom_in",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002",
+        "char_003"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "visual_prompt": "3D Pixar-style CGI, The barren, red terrain of Mars. Dust storms occasionally sweep across the landscape., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_right",
+      "transition_in": "dissolve",
+      "transition_out": "cut",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_003",
+      "visual_prompt": "3D Pixar-style CGI, A hidden cave beneath the surface, illuminated by a mesmerizing, glowing ocean., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "pan_left",
+      "transition_in": "fade_in",
+      "transition_out": "fade_out",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "visual_prompt": "3D Pixar-style CGI, The ascent back to the Martian base, under the vast, starry sky., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "ken_burns",
+      "transition_in": "cut",
+      "transition_out": "dissolve",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "visual_prompt": "3D Pixar-style CGI, Inside a futuristic Martian base, filled with advanced technology. The red Martian landscape can be seen through large windows., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), Dr. Levin (middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor), Commander Ortega (tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression), Kai (young man with shaggy blonde hair, wearing casual Martian base outfit, friendly and enthusiastic demeanor), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+      "negative_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+      "camera_movement": "static",
+      "transition_in": "fade_in",
+      "transition_out": "cut",
+      "duration_seconds": 32,
+      "character_ids_in_scene": [
+        "char_001",
+        "char_002",
+        "char_003",
+        "char_004"
+      ]
+    }
+  ],
+  "character_appearance_prompts": {
+    "char_001": "young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression",
+    "char_002": "middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor",
+    "char_003": "tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression",
+    "char_004": "young man with shaggy blonde hair, wearing casual Martian base outfit, friendly and enthusiastic demeanor"
+  },
+  "global_art_style": "3D Pixar-style CGI"
+}

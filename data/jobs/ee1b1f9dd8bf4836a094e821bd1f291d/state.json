@@ -1,0 +1,460 @@
+{
+  "job_id": "ee1b1f9dd8bf4836a094e821bd1f291d",
+  "prompt": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+  "status": "completed",
+  "current_phase": null,
+  "phases": {
+    "1": "completed",
+    "2": "completed",
+    "3": "completed"
+  },
+  "progress": 100,
+  "message": "Pipeline completed",
+  "errors": [],
+  "outputs": {
+    "phase1": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1",
+      "artifacts": {
+        "story": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\story.json",
+        "characters": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\characters.json",
+        "script": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\script.json",
+        "phase2_audio_handoff": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\phase2_audio_handoff.json",
+        "phase3_video_handoff": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\phase3_video_handoff.json",
+        "summary": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\summary.json"
+      },
+      "story": {
+        "title": "The Glowing Ocean of Mars",
+        "genre": "Sci-Fi Adventure",
+        "themes": [
+          "exploration",
+          "discovery",
+          "hope"
+        ],
+        "arc": [
+          "intro",
+          "rising_action",
+          "climax",
+          "falling_action",
+          "resolution"
+        ],
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "title": "Mars Base",
+            "setting": "Inside a futuristic Martian base, filled with advanced technology. The red Martian landscape can be seen through large windows.",
+            "tone": "Hopeful and curious",
+            "arc_position": "intro",
+            "summary": "The protagonist, a young and hopeful astronaut named Elara, gazes out at the vast Martian desert. She is reviewing satellite images on a holographic screen that hint at something unusual beneath the planet’s surface.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "exploration",
+              "curiosity"
+            ]
+          },
+          {
+            "scene_id": "scene_002",
+            "title": "Martian Surface",
+            "setting": "The barren, red terrain of Mars. Dust storms occasionally sweep across the landscape.",
+            "tone": "Adventurous and determined",
+            "arc_position": "rising_action",
+            "summary": "Elara suits up and embarks on a rover expedition to the coordinates of the anomaly. The journey is filled with challenges as the rover maneuvers through rocky terrain.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "adventure",
+              "determination"
+            ]
+          },
+          {
+            "scene_id": "scene_003",
+            "title": "Discovery of the Glowing Ocean",
+            "setting": "A hidden cave beneath the surface, illuminated by a mesmerizing, glowing ocean.",
+            "tone": "Awe and wonder",
+            "arc_position": "climax",
+            "summary": "Elara descends into the cave, her flashlight revealing an underground ocean that glows with an ethereal light. The water is teeming with bioluminescent life forms, casting a vibrant glow throughout the cavern.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "discovery",
+              "wonder"
+            ]
+          },
+          {
+            "scene_id": "scene_004",
+            "title": "The Return",
+            "setting": "The ascent back to the Martian base, under the vast, starry sky.",
+            "tone": "Reflective and joyous",
+            "arc_position": "falling_action",
+            "summary": "Elara returns to her rover with samples, feeling a deep sense of accomplishment and wonder. She records a message back to Earth, sharing the monumental discovery.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "reflection",
+              "joy"
+            ]
+          },
+          {
+            "scene_id": "scene_005",
+            "title": "Back at the Base",
+            "setting": "The Martian base, now filled with activity as the team celebrates the discovery.",
+            "tone": "Inspirational and uplifting",
+            "arc_position": "resolution",
+            "summary": "Elara celebrates with her team, their faces lit by the glow of the holographic display showing the cave's images. Plans for future exploration are discussed with excitement.",
+            "estimated_duration_seconds": 32,
+            "themes": [
+              "inspiration",
+              "future exploration"
+            ]
+          }
+        ],
+        "total_estimated_duration_seconds": 160,
+        "premise": "A hopeful astronaut discovers a glowing ocean beneath Mars.",
+        "setting_description": "A futuristic Martian base and the barren, red terrain of Mars, including a hidden cave with a glowing ocean."
+      },
+      "characters": {
+        "characters": [
+          {
+            "character_id": "char_001",
+            "name": "Elara",
+            "role": "protagonist",
+            "voice_config": {
+              "gender": "female",
+              "age_range": "young_adult",
+              "tone": "hopeful and determined",
+              "speed": 1.0,
+              "emotion_baseline": "curious",
+              "accent": "standard american",
+              "tts_style_tags": [
+                "bright",
+                "adventurous"
+              ]
+            },
+            "appearance": {
+              "physical_description": "Young woman with auburn, wavy hair tied back in a practical ponytail. She has bright green eyes.",
+              "clothing": "Sleek, silver astronaut suit with a clear visor.",
+              "distinctive_features": "Focused and determined expression.",
+              "color_palette": [
+                "#C0C0C0",
+                "#FF4500",
+                "#32CD32"
+              ],
+              "art_style_prompt": "young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression"
+            },
+            "personality_traits": [
+              "curious",
+              "courageous",
+              "optimistic"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_002",
+              "scene_003",
+              "scene_004",
+              "scene_005"
+            ],
+            "background": "Elara is a young astronaut passionate about space exploration, driven to uncover the mysteries of Mars."
+          },
+          {
+            "character_id": "char_002",
+            "name": "Dr. Levin",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "male",
+              "age_range": "adult",
+              "tone": "scholarly and calm",
+              "speed": 0.9,
+              "emotion_baseline": "thoughtful",
+              "accent": "british",
+              "tts_style_tags": [
+                "calm",
+                "intellectual"
+              ]
+            },
+            "appearance": {
+              "physical_description": "Middle-aged man with salt-and-pepper hair.",
+              "clothing": "White lab coat over casual Martian base attire.",
+              "distinctive_features": "Sharp, analytical eyes and a kind, scholarly demeanor.",
+              "color_palette": [
+                "#FFFFFF",
+                "#708090",
+                "#4682B4"
+              ],
+              "art_style_prompt": "middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor"
+            },
+            "personality_traits": [
+              "wise",
+              "supportive",
+              "insightful"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_005"
+            ],
+            "background": "Dr. Levin is an experienced planetary scientist providing guidance and insight to Elara and the team."
+          },
+          {
+            "character_id": "char_003",
+            "name": "Commander Ortega",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "female",
+              "age_range": "adult",
+              "tone": "commanding and warm",
+              "speed": 1.0,
+              "emotion_baseline": "encouraging",
+              "accent": "spanish",
+              "tts_style_tags": [
+                "authoritative",
+                "supportive"
+              ]
+            },
+            "appearance": {
+              "physical_description": "Tall woman in her late 40s with short-cropped black hair.",
+              "clothing": "Commanding officer's uniform with Martian expedition insignias.",
+              "distinctive_features": "Serious yet approachable expression.",
+              "color_palette": [
+                "#000000",
+                "#FFD700",
+                "#8B0000"
+              ],
+              "art_style_prompt": "tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression"
+            },
+            "personality_traits": [
+              "firm",
+              "fair",
+              "empathetic"
+            ],
+            "scenes_appearing_in": [
+              "scene_001",
+              "scene_005"
+            ],
+            "background": "Commander Ortega leads the team with a balance of authority and empathy, encouraging exploration."
+          },
+          {
+            "character_id": "char_004",
+            "name": "Kai",
+            "role": "supporting",
+            "voice_config": {
+              "gender": "male",
+              "age_range": "young_adult",
+              "tone": "energetic and friendly",
+              "speed": 1.2,
+              "emotion_baseline": "excited",
+              "accent": "australian",
+              "tts_style_tags": [
+                "cheerful",
+                "energetic"
+              ]
+            },
+            "appearance": {
+              "physical_description": "Young man with shaggy blonde hair.",
+              "clothing": "Casual Martian base outfit.",
+              "distinctive_features": "Friendly face and enthusiastic demeanor.",
+              "color_palette": [
+                "#FFD700",
+                "#87CEEB",
+                "#32CD32"
+              ],
+              "art_style_prompt": "young man with shaggy blonde hair, wearing casual Martian base outfit, friendly and enthusiastic demeanor"
+            },
+            "personality_traits": [
+              "enthusiastic",
+              "inquisitive",
+              "supportive"
+            ],
+            "scenes_appearing_in": [
+              "scene_005"
+            ],
+            "background": "Kai is an enthusiastic team member, eager to learn and assist, boosting team morale."
+          }
+        ],
+        "global_art_style": "3D Pixar-style CGI"
+      },
+      "script": {
+        "scenes": [
+          {
+            "scene_id": "scene_001",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "I've found something unusual on the satellite images. It might be a hidden ocean!",
+                "emotion": "neutral",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 7.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_002",
+                "text": "Fascinating! We must prepare for an expedition immediately.",
+                "emotion": "determined",
+                "timing_offset_seconds": 7.0,
+                "duration_hint_seconds": 7.0
+              },
+              {
+                "line_id": "line_003",
+                "character_id": "char_003",
+                "text": "Elara, your findings could change everything. Proceed with caution.",
+                "emotion": "neutral",
+                "timing_offset_seconds": 14.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, Inside a futuristic Martian base, filled with advanced technology. The red Martian landscape can be seen through large windows., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), Dr. Levin (middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor), Commander Ortega (tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "zoom_in",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "gentle",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          },
+          {
+            "scene_id": "scene_002",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "Alright, Mars, show me your secrets.",
+                "emotion": "curious",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "The rover's ready for anything. Let's find that ocean!",
+                "emotion": "neutral",
+                "timing_offset_seconds": 5.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, The barren, red terrain of Mars. Dust storms occasionally sweep across the landscape., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "pan_right",
+            "transition_in": "dissolve",
+            "transition_out": "cut",
+            "background_music_mood": "adventurous",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          },
+          {
+            "scene_id": "scene_003",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "This is incredible... An ocean glowing with life!",
+                "emotion": "excited",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "I've never seen anything like it.",
+                "emotion": "sad",
+                "timing_offset_seconds": 5.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, A hidden cave beneath the surface, illuminated by a mesmerizing, glowing ocean., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "pan_left",
+            "transition_in": "fade_in",
+            "transition_out": "fade_out",
+            "background_music_mood": "ethereal",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          },
+          {
+            "scene_id": "scene_004",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "The samples are secure. This discovery will change everything we know about Mars.",
+                "emotion": "joyful",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 7.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_001",
+                "text": "I can't wait to share this with Earth.",
+                "emotion": "reflective",
+                "timing_offset_seconds": 7.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, The ascent back to the Martian base, under the vast, starry sky., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "ken_burns",
+            "transition_in": "cut",
+            "transition_out": "dissolve",
+            "background_music_mood": "reflective",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          },
+          {
+            "scene_id": "scene_005",
+            "dialogue": [
+              {
+                "line_id": "line_001",
+                "character_id": "char_001",
+                "text": "We did it! The glowing ocean is just the beginning.",
+                "emotion": "inspired",
+                "timing_offset_seconds": 0.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_002",
+                "character_id": "char_002",
+                "text": "This will open new doors for exploration.",
+                "emotion": "hopeful",
+                "timing_offset_seconds": 5.0,
+                "duration_hint_seconds": 5.0
+              },
+              {
+                "line_id": "line_003",
+                "character_id": "char_004",
+                "text": "I can't wait to dive into the data!",
+                "emotion": "excited",
+                "timing_offset_seconds": 10.0,
+                "duration_hint_seconds": 5.0
+              }
+            ],
+            "visual_prompt": "3D Pixar-style CGI, Inside a futuristic Martian base, filled with advanced technology. The red Martian landscape can be seen through large windows., Elara (young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression), Dr. Levin (middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor), Commander Ortega (tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression), Kai (young man with shaggy blonde hair, wearing casual Martian base outfit, friendly and enthusiastic demeanor), natural cinematic lighting, highly detailed, 4K resolution, professional animation studio quality, wide establishing shot",
+            "negative_visual_prompt": "blurry, low quality, distorted faces, watermark, text overlay, extra limbs, deformed, ugly, oversaturated, duplicate characters",
+            "camera_movement": "static",
+            "transition_in": "fade_in",
+            "transition_out": "cut",
+            "background_music_mood": "uplifting",
+            "subtitle_text": "",
+            "estimated_duration_seconds": 32
+          }
+        ]
+      }
+    },
+    "phase2": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase2",
+      "timing_manifest": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase2\\timing_manifest.json",
+      "full_audio": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase2\\full_audio.wav",
+      "summary": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase2\\summary.json",
+      "scene_count": 5,
+      "segment_count": 12
+    },
+    "phase3": {
+      "output_dir": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase3",
+      "final_video": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase3\\final_output.mp4",
+      "subtitles": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase3\\subtitles.srt",
+      "summary": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase3\\summary.json",
+      "scene_clips": [
+        "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase3\\scenes\\scene_001_final.mp4",
+        "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase3\\scenes\\scene_002_final.mp4",
+        "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase3\\scenes\\scene_003_final.mp4",
+        "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase3\\scenes\\scene_004_final.mp4",
+        "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase3\\scenes\\scene_005_final.mp4"
+      ]
+    }
+  },
+  "created_at": "2026-05-09T12:06:49Z",
+  "updated_at": "2026-05-09T12:32:43Z"
+}

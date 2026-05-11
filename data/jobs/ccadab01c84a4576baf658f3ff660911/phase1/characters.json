@@ -1,0 +1,120 @@
+{
+  "characters": [
+    {
+      "character_id": "char_001",
+      "name": "Alex",
+      "role": "protagonist",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "young_adult",
+        "tone": "hopeful",
+        "speed": 1.0,
+        "emotion_baseline": "optimistic",
+        "accent": "mid-atlantic",
+        "tts_style_tags": [
+          "neutral",
+          "optimistic",
+          "youthful"
+        ]
+      },
+      "appearance": {
+        "physical_description": "young astronaut with short brown hair",
+        "clothing": "wearing a sleek white and silver space suit",
+        "distinctive_features": "hopeful and determined expression",
+        "color_palette": [
+          "#FFFFFF",
+          "#C0C0C0",
+          "#8B4513"
+        ],
+        "art_style_prompt": "young astronaut with short brown hair, wearing a sleek white and silver space suit, hopeful and determined expression"
+      },
+      "personality_traits": [
+        "curious",
+        "adventurous",
+        "hopeful"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_002",
+        "scene_003",
+        "scene_004",
+        "scene_005"
+      ],
+      "background": "Alex is on a mission to uncover the secrets of Mars, driven by a passion for exploration and discovery."
+    },
+    {
+      "character_id": "char_002",
+      "name": "Mission Control Voice",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "adult",
+        "tone": "calm",
+        "speed": 1.0,
+        "emotion_baseline": "supportive",
+        "accent": "american",
+        "tts_style_tags": [
+          "calm",
+          "authoritative",
+          "mature"
+        ]
+      },
+      "appearance": {
+        "physical_description": "Not visually depicted",
+        "clothing": "N/A",
+        "distinctive_features": "N/A",
+        "color_palette": [],
+        "art_style_prompt": "N/A"
+      },
+      "personality_traits": [
+        "supportive",
+        "knowledgeable",
+        "encouraging"
+      ],
+      "scenes_appearing_in": [
+        "scene_001",
+        "scene_005"
+      ],
+      "background": "The voice of Mission Control provides guidance and support to Alex from Earth."
+    },
+    {
+      "character_id": "char_003",
+      "name": "Martian Marine Creature",
+      "role": "supporting",
+      "voice_config": {
+        "gender": "neutral",
+        "age_range": "child",
+        "tone": "N/A",
+        "speed": 1.0,
+        "emotion_baseline": "N/A",
+        "accent": "N/A",
+        "tts_style_tags": [
+          "ambient",
+          "mysterious",
+          "alien"
+        ]
+      },
+      "appearance": {
+        "physical_description": "luminescent sea creature with transparent fins",
+        "clothing": "N/A",
+        "distinctive_features": "glowing, color-changing body",
+        "color_palette": [
+          "#00FFFF",
+          "#FF69B4",
+          "#8A2BE2"
+        ],
+        "art_style_prompt": "luminescent sea creature with transparent fins and a glowing, color-changing body"
+      },
+      "personality_traits": [
+        "mysterious",
+        "graceful",
+        "awe-inspiring"
+      ],
+      "scenes_appearing_in": [
+        "scene_004"
+      ],
+      "background": "A mysterious creature living in the glowing ocean beneath Mars, symbolizing the unknown wonders of the universe."
+    }
+  ],
+  "global_art_style": "Studio Ghibli-style watercolour anime"
+}

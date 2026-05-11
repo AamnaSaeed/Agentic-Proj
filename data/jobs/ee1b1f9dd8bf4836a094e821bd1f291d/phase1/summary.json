@@ -1,0 +1,258 @@
+{
+  "run_status": "success",
+  "timestamp": "2026-05-09T17:08:15.747528",
+  "errors": [],
+  "tools_log": [
+    {
+      "node": "story_agent",
+      "tool": "validate_story_arc",
+      "args": {
+        "arc_positions": [
+          "intro",
+          "rising_action",
+          "climax",
+          "falling_action",
+          "resolution"
+        ]
+      }
+    },
+    {
+      "node": "story_agent",
+      "tool": "estimate_duration",
+      "args": {
+        "scene_count": 5,
+        "avg_dialogue_lines_per_scene": 4
+      }
+    },
+    {
+      "node": "character_agent",
+      "tool": "check_consistency",
+      "args": {
+        "character_ids": [
+          "char_001",
+          "char_002",
+          "char_003",
+          "char_004"
+        ]
+      }
+    },
+    {
+      "node": "character_agent",
+      "tool": "check_consistency",
+      "args": {
+        "character_ids": [
+          "char_001",
+          "char_002",
+          "char_003",
+          "char_004"
+        ],
+        "scene_character_map": {
+          "scene_001": [
+            "char_001",
+            "char_002",
+            "char_003"
+          ],
+          "scene_002": [
+            "char_001"
+          ],
+          "scene_003": [
+            "char_001"
+          ],
+          "scene_004": [
+            "char_001"
+          ],
+          "scene_005": [
+            "char_001",
+            "char_002",
+            "char_003",
+            "char_004"
+          ]
+        }
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "Inside a futuristic Martian base, filled with advanced technology. The red Martian landscape can be seen through large windows.",
+        "scene_tone": "Hopeful and curious",
+        "characters_present": [
+          "Elara",
+          "Dr. Levin",
+          "Commander Ortega"
+        ],
+        "character_descriptions": [
+          "young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression",
+          "middle-aged man with salt-and-pepper hair, wearing a white lab coat, analytical eyes, kind and scholarly demeanor",
+          "tall woman with short-cropped black hair, wearing a commanding officer's uniform with insignias, serious yet approachable expression"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "estimate_duration",
+      "args": {
+        "scene_count": 5,
+        "avg_dialogue_lines_per_scene": 3,
+        "avg_words_per_line": 15
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "I've found something unusual on the satellite images. It might be a hidden ocean!",
+        "scene_tone": "Hopeful and curious",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Fascinating! We must prepare for an expedition immediately.",
+        "scene_tone": "Hopeful and curious",
+        "character_role": "supporting"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Elara, your findings could change everything. Proceed with caution.",
+        "scene_tone": "Hopeful and curious",
+        "character_role": "supporting"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "I've found something unusual on the satellite images. It might be a hidden ocean!",
+          "Fascinating! We must prepare for an expedition immediately.",
+          "Elara, your findings could change everything. Proceed with caution."
+        ],
+        "target_duration_seconds": 32
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "The barren, red terrain of Mars. Dust storms occasionally sweep across the landscape.",
+        "scene_tone": "Adventurous and determined",
+        "characters_present": [
+          "Elara"
+        ],
+        "character_descriptions": [
+          "young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Alright, Mars, show me your secrets.",
+        "scene_tone": "Adventurous and determined",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "The rover's ready for anything. Let's find that ocean!",
+        "scene_tone": "Adventurous and determined",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "Alright, Mars, show me your secrets.",
+          "The rover's ready for anything. Let's find that ocean!"
+        ],
+        "target_duration_seconds": 32
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "A hidden cave beneath the surface, illuminated by a mesmerizing, glowing ocean.",
+        "scene_tone": "Awe and wonder",
+        "characters_present": [
+          "Elara"
+        ],
+        "character_descriptions": [
+          "young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "This is incredible... An ocean glowing with life!",
+        "scene_tone": "Awe and wonder",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "I've never seen anything like it.",
+        "scene_tone": "Awe and wonder",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "This is incredible... An ocean glowing with life!",
+          "I've never seen anything like it."
+        ],
+        "target_duration_seconds": 32
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "The ascent back to the Martian base, under the vast, starry sky.",
+        "scene_tone": "Reflective and joyous",
+        "characters_present": [
+          "Elara"
+        ],
+        "character_descriptions": [
+          "young woman with auburn wavy hair in a ponytail, bright green eyes, wearing a sleek silver astronaut suit with a clear visor, focused expression"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    }
+  ],
+  "artifact_paths": {
+    "story": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\story.json",
+    "characters": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\characters.json",
+    "script": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\script.json",
+    "phase2_audio_handoff": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\phase2_audio_handoff.json",
+    "phase3_video_handoff": "D:\\agentic project\\data\\jobs\\ee1b1f9dd8bf4836a094e821bd1f291d\\phase1\\phase3_video_handoff.json"
+  },
+  "stats": {
+    "scene_count": 5,
+    "character_count": 4,
+    "total_dialogue_lines": 12,
+    "estimated_total_seconds": 160,
+    "total_audio_segments": 12
+  }
+}

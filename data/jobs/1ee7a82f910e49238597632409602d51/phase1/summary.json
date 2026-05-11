@@ -1,0 +1,355 @@
+{
+  "run_status": "success",
+  "timestamp": "2026-05-07T12:30:26.037034",
+  "errors": [],
+  "tools_log": [
+    {
+      "node": "story_agent",
+      "tool": "validate_story_arc",
+      "args": {
+        "arc_positions": [
+          "intro",
+          "rising_action",
+          "climax",
+          "falling_action",
+          "resolution"
+        ]
+      }
+    },
+    {
+      "node": "story_agent",
+      "tool": "estimate_duration",
+      "args": {
+        "scene_count": 5,
+        "avg_dialogue_lines_per_scene": 4
+      }
+    },
+    {
+      "node": "character_agent",
+      "tool": "check_consistency",
+      "args": {
+        "character_ids": [
+          "char_001",
+          "char_002",
+          "char_003"
+        ]
+      }
+    },
+    {
+      "node": "character_agent",
+      "tool": "check_consistency",
+      "args": {
+        "character_ids": [
+          "char_001",
+          "char_002",
+          "char_003"
+        ],
+        "scene_character_map": {
+          "scene_001": [
+            "char_001",
+            "char_002"
+          ],
+          "scene_002": [
+            "char_001",
+            "char_003"
+          ],
+          "scene_003": [
+            "char_001",
+            "char_003"
+          ],
+          "scene_004": [
+            "char_001",
+            "char_002",
+            "char_003"
+          ],
+          "scene_005": [
+            "char_001",
+            "char_002"
+          ]
+        }
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "A futuristic Mars base with red rocky terrains visible through the windows. The interior is filled with advanced technology and bustling scientists.",
+        "scene_tone": "hopeful and curious",
+        "characters_present": [
+          "Alex",
+          "Dr. Elena Carter"
+        ],
+        "character_descriptions": [
+          "young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination",
+          "middle-aged woman with silver-streaked black hair, wearing a lab coat over a casual turtleneck, glasses perched on her nose, with a thoughtful expression"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "The barren, dusty surface of Mars, under a brilliant sky filled with stars.",
+        "scene_tone": "adventurous and tense",
+        "characters_present": [
+          "Alex",
+          "Rover AI"
+        ],
+        "character_descriptions": [
+          "young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination",
+          "sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "An underground cave, revealed after a dramatic landslide. Inside, the walls glisten with crystalline deposits, and in the center lies a vast, glowing ocean, shimmering in shades of turquoise and green.",
+        "scene_tone": "awe and wonder",
+        "characters_present": [
+          "Alex",
+          "Rover AI"
+        ],
+        "character_descriptions": [
+          "young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination",
+          "sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "Back in the rover, now heading towards the base, the sky beginning to darken with the Martian dusk.",
+        "scene_tone": "relieved and excited",
+        "characters_present": [
+          "Alex",
+          "Rover AI"
+        ],
+        "character_descriptions": [
+          "young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination",
+          "sleek, compact robotic rover with a smooth metallic surface and glowing interface, exuding an aura of intelligence and efficiency"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "build_visual_prompt",
+      "args": {
+        "scene_setting": "The Mars base, now bustling with activity, as scientists prepare for a new expedition to the glowing ocean.",
+        "scene_tone": "hopeful and inspiring",
+        "characters_present": [
+          "Alex",
+          "Dr. Elena Carter"
+        ],
+        "character_descriptions": [
+          "young adult with short sandy hair, wearing a sleek white and silver astronaut suit with a transparent helmet, eyes filled with curiosity and determination",
+          "middle-aged woman with silver-streaked black hair, wearing a lab coat over a casual turtleneck, glasses perched on her nose, with a thoughtful expression"
+        ],
+        "art_style": "3D Pixar-style CGI"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Just look at those red terrains. Mars holds so many mysteries yet to be discovered.",
+        "scene_tone": "hopeful and curious",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "With your determination, I'm sure you'll find something extraordinary, Alex.",
+        "scene_tone": "hopeful and curious",
+        "character_role": "supporting"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Time to gear up. The Red Planet awaits!",
+        "scene_tone": "hopeful and curious",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "Just look at those red terrains. Mars holds so many mysteries yet to be discovered.",
+          "With your determination, I'm sure you'll find something extraordinary, Alex.",
+          "Time to gear up. The Red Planet awaits!"
+        ],
+        "target_duration_seconds": 32
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Rover, follow these coordinates. We might finally see what's hidden out there.",
+        "scene_tone": "adventurous and tense",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Coordinates set. All systems optimal for navigation.",
+        "scene_tone": "adventurous and tense",
+        "character_role": "supporting"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Stay alert, Alex. The communication link is unstable.",
+        "scene_tone": "adventurous and tense",
+        "character_role": "supporting"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "Rover, follow these coordinates. We might finally see what's hidden out there.",
+          "Coordinates set. All systems optimal for navigation.",
+          "Stay alert, Alex. The communication link is unstable."
+        ],
+        "target_duration_seconds": 32
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "This is beyond anything I imagined. It's beautiful!",
+        "scene_tone": "awe and wonder",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Recording initiated. Data transmission ready.",
+        "scene_tone": "awe and wonder",
+        "character_role": "supporting"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "This discovery will change everything we know about Mars.",
+        "scene_tone": "awe and wonder",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "This is beyond anything I imagined. It's beautiful!",
+          "Recording initiated. Data transmission ready.",
+          "This discovery will change everything we know about Mars."
+        ],
+        "target_duration_seconds": 32
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Base, you won't believe what I've found. Sending the footage now.",
+        "scene_tone": "relieved and excited",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "This is unbelievable, Alex! The entire base is buzzing with excitement.",
+        "scene_tone": "relieved and excited",
+        "character_role": "supporting"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "I knew we were onto something extraordinary.",
+        "scene_tone": "relieved and excited",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "validate_duration",
+      "args": {
+        "dialogue_lines": [
+          "Base, you won't believe what I've found. Sending the footage now.",
+          "This is unbelievable, Alex! The entire base is buzzing with excitement.",
+          "I knew we were onto something extraordinary."
+        ],
+        "target_duration_seconds": 32
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Look at them all, preparing to uncover more mysteries of Mars.",
+        "scene_tone": "hopeful and inspiring",
+        "character_role": "protagonist"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "Your discovery has opened new doors, Alex. It's just the beginning.",
+        "scene_tone": "hopeful and inspiring",
+        "character_role": "supporting"
+      }
+    },
+    {
+      "node": "script_agent",
+      "tool": "analyze_emotions",
+      "args": {
+        "dialogue_text": "I can feel it, Dr. Carter. We're on the brink of something incredible.",
+        "scene_tone": "hopeful and inspiring",
+        "character_role": "protagonist"
+      }
+    }
+  ],
+  "artifact_paths": {
+    "story": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\story.json",
+    "characters": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\characters.json",
+    "script": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\script.json",
+    "phase2_audio_handoff": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\phase2_audio_handoff.json",
+    "phase3_video_handoff": "D:\\agentic project\\data\\jobs\\1ee7a82f910e49238597632409602d51\\phase1\\phase3_video_handoff.json"
+  },
+  "stats": {
+    "scene_count": 5,
+    "character_count": 3,
+    "total_dialogue_lines": 15,
+    "estimated_total_seconds": 160,
+    "total_audio_segments": 15
+  }
+}

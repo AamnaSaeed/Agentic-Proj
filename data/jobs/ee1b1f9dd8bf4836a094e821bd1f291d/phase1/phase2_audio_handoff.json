@@ -1,0 +1,326 @@
+{
+  "voice_configs": {
+    "char_001": {
+      "gender": "female",
+      "age_range": "young_adult",
+      "tone": "hopeful and determined",
+      "speed": 1.0,
+      "emotion_baseline": "curious",
+      "accent": "standard american",
+      "tts_style_tags": [
+        "bright",
+        "adventurous"
+      ]
+    },
+    "char_002": {
+      "gender": "male",
+      "age_range": "adult",
+      "tone": "scholarly and calm",
+      "speed": 0.9,
+      "emotion_baseline": "thoughtful",
+      "accent": "british",
+      "tts_style_tags": [
+        "calm",
+        "intellectual"
+      ]
+    },
+    "char_003": {
+      "gender": "female",
+      "age_range": "adult",
+      "tone": "commanding and warm",
+      "speed": 1.0,
+      "emotion_baseline": "encouraging",
+      "accent": "spanish",
+      "tts_style_tags": [
+        "authoritative",
+        "supportive"
+      ]
+    },
+    "char_004": {
+      "gender": "male",
+      "age_range": "young_adult",
+      "tone": "energetic and friendly",
+      "speed": 1.2,
+      "emotion_baseline": "excited",
+      "accent": "australian",
+      "tts_style_tags": [
+        "cheerful",
+        "energetic"
+      ]
+    }
+  },
+  "audio_segments": [
+    {
+      "segment_id": "scene_001_line_001",
+      "scene_id": "scene_001",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "I've found something unusual on the satellite images. It might be a hidden ocean!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "standard american",
+        "tts_style_tags": [
+          "bright",
+          "adventurous"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 7.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_001_line_002",
+      "scene_id": "scene_001",
+      "character_id": "char_002",
+      "line_id": "line_002",
+      "text": "Fascinating! We must prepare for an expedition immediately.",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "adult",
+        "tone": "scholarly and calm",
+        "speed": 0.9,
+        "emotion_baseline": "thoughtful",
+        "accent": "british",
+        "tts_style_tags": [
+          "calm",
+          "intellectual"
+        ]
+      },
+      "timing_offset_seconds": 7.0,
+      "duration_hint_seconds": 7.0,
+      "emotion": "determined"
+    },
+    {
+      "segment_id": "scene_001_line_003",
+      "scene_id": "scene_001",
+      "character_id": "char_003",
+      "line_id": "line_003",
+      "text": "Elara, your findings could change everything. Proceed with caution.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "adult",
+        "tone": "commanding and warm",
+        "speed": 1.0,
+        "emotion_baseline": "encouraging",
+        "accent": "spanish",
+        "tts_style_tags": [
+          "authoritative",
+          "supportive"
+        ]
+      },
+      "timing_offset_seconds": 14.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_002_line_001",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "Alright, Mars, show me your secrets.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "standard american",
+        "tts_style_tags": [
+          "bright",
+          "adventurous"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "curious"
+    },
+    {
+      "segment_id": "scene_002_line_002",
+      "scene_id": "scene_002",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "The rover's ready for anything. Let's find that ocean!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "standard american",
+        "tts_style_tags": [
+          "bright",
+          "adventurous"
+        ]
+      },
+      "timing_offset_seconds": 5.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "neutral"
+    },
+    {
+      "segment_id": "scene_003_line_001",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "This is incredible... An ocean glowing with life!",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "standard american",
+        "tts_style_tags": [
+          "bright",
+          "adventurous"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "excited"
+    },
+    {
+      "segment_id": "scene_003_line_002",
+      "scene_id": "scene_003",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "I've never seen anything like it.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "standard american",
+        "tts_style_tags": [
+          "bright",
+          "adventurous"
+        ]
+      },
+      "timing_offset_seconds": 5.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "sad"
+    },
+    {
+      "segment_id": "scene_004_line_001",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "The samples are secure. This discovery will change everything we know about Mars.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "standard american",
+        "tts_style_tags": [
+          "bright",
+          "adventurous"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 7.0,
+      "emotion": "joyful"
+    },
+    {
+      "segment_id": "scene_004_line_002",
+      "scene_id": "scene_004",
+      "character_id": "char_001",
+      "line_id": "line_002",
+      "text": "I can't wait to share this with Earth.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "standard american",
+        "tts_style_tags": [
+          "bright",
+          "adventurous"
+        ]
+      },
+      "timing_offset_seconds": 7.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "reflective"
+    },
+    {
+      "segment_id": "scene_005_line_001",
+      "scene_id": "scene_005",
+      "character_id": "char_001",
+      "line_id": "line_001",
+      "text": "We did it! The glowing ocean is just the beginning.",
+      "voice_config": {
+        "gender": "female",
+        "age_range": "young_adult",
+        "tone": "hopeful and determined",
+        "speed": 1.0,
+        "emotion_baseline": "curious",
+        "accent": "standard american",
+        "tts_style_tags": [
+          "bright",
+          "adventurous"
+        ]
+      },
+      "timing_offset_seconds": 0.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "inspired"
+    },
+    {
+      "segment_id": "scene_005_line_002",
+      "scene_id": "scene_005",
+      "character_id": "char_002",
+      "line_id": "line_002",
+      "text": "This will open new doors for exploration.",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "adult",
+        "tone": "scholarly and calm",
+        "speed": 0.9,
+        "emotion_baseline": "thoughtful",
+        "accent": "british",
+        "tts_style_tags": [
+          "calm",
+          "intellectual"
+        ]
+      },
+      "timing_offset_seconds": 5.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "hopeful"
+    },
+    {
+      "segment_id": "scene_005_line_003",
+      "scene_id": "scene_005",
+      "character_id": "char_004",
+      "line_id": "line_003",
+      "text": "I can't wait to dive into the data!",
+      "voice_config": {
+        "gender": "male",
+        "age_range": "young_adult",
+        "tone": "energetic and friendly",
+        "speed": 1.2,
+        "emotion_baseline": "excited",
+        "accent": "australian",
+        "tts_style_tags": [
+          "cheerful",
+          "energetic"
+        ]
+      },
+      "timing_offset_seconds": 10.0,
+      "duration_hint_seconds": 5.0,
+      "emotion": "excited"
+    }
+  ],
+  "music_moods": {
+    "scene_001": "gentle",
+    "scene_002": "adventurous",
+    "scene_003": "ethereal",
+    "scene_004": "reflective",
+    "scene_005": "uplifting"
+  },
+  "total_segments": 12
+}
